@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/appLinerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yes_sdk_light_gray">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/yes_sdk_sms_trigger" />
+
+        <TextView
+            style="@style/yes_sdk_whiteSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/yes_sdk_sms"
+            android:textAlignment="center" />
+
+        <TextView
+            style="@style/yes_sdk_whiteSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/yes_sdk_paymentexp"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/otherAppButton"
+        style="@style/yes_sdk_blueSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/poweredByLyout"
+        android:layout_centerInParent="true"
+        android:text="@string/yes_sdk_otherapp"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+    <LinearLayout
+        android:id="@+id/poweredByLyout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/proceedButton"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/poweredByTextView"
+            style="@style/yes_sdk_whiteSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes_sdk_powered_by" />
+
+        <ImageView
+            android:id="@+id/headerImageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/yes_sdk_yes_ic_powered_by" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/proceedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="?colorPrimary"
+        android:clickable="true"
+        android:text="@string/yes_sdk_proceed"
+        android:textColor="@color/yes_sdk_white" />
+
+    <include
+        android:id="@+id/errorView"
+        layout="@layout/yes_sdk_view_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eaeaed"
+        android:visibility="gone"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\gpldileep\\Desktop\\corrupt\\backup\\goWallet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\gpldileep\\.gradle\\caches\\transforms-2\\files-2.1\\1ebc7bc70f8351a304d600eabe098d30\\res\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endColumns": "58,55",
+                        "endOffsets": "109,165"
+                    },
+                    "to": {
+                        "startLines": "8,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "381,440",
+                        "endColumns": "58,55",
+                        "endOffsets": "435,491"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\gpldileep\\Desktop\\corrupt\\backup\\goWallet\\app-release\\build\\.transforms\\293147a97f1e741c20bc8ef96372fd10\\res\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,110,164,229,293",
+                        "endColumns": "54,53,64,63,42",
+                        "endOffsets": "105,159,224,288,331"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\gpldileep\\Desktop\\corrupt\\backup\\goWallet\\app\\src\\main\\res\\values-xxhdpi\\integers.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "44",
+                        "endOffsets": "97"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "336",
+                        "endColumns": "44",
+                        "endOffsets": "376"
+                    }
+                }
+            ]
+        }
+    ]
+}

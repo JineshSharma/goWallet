@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#FFFFFF"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/transaction_details_item_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:textSize="12sp"
+        android:ellipsize="end"
+        android:textColor="@color/npci_text_secondary_dark"
+        tools:text="KEY NAME"/>
+
+    <TextView
+        android:id="@+id/transaction_details_item_value"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:maxLines="2"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:ellipsize="end"
+        android:textSize="14sp"
+        android:textColor="@color/npci_text_primary_dark"
+        tools:text="This is the value"/>
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemRootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yes_sdk_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/itemSubRootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/normal_padding">
+
+        <ImageView
+            android:id="@+id/bankLogoImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:srcCompat="@drawable/yes_sdk_ic_bank" />
+
+        <TextView
+            android:id="@+id/accountNumberTextView"
+            style="@style/yes_sdk_whiteMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="XXXXXX6622"
+            android:textColor="@color/yes_sdk_black" />
+
+        <TextView
+            android:id="@+id/setPinTextView"
+            style="@style/yes_sdk_whiteMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/yes_sdk_only_set_pin"
+            android:textAllCaps="true"
+            android:textColor="?colorPrimary"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/balanceTextView"
+            style="@style/yes_sdk_whiteMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="@string/yes_sdk_only_balance"
+            android:textAllCaps="true"
+            android:textColor="?colorPrimary"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@id/primaryIndicatorImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:srcCompat="@drawable/yes_sdk_ic_circle" />
+
+        <RelativeLayout
+            android:id="@+id/headerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/medium_space"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/bankNameAccountTypeTextView"
+                style="@style/yes_sdk_whiteMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/removeAccountImageView"
+                android:text="Axis Bank"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@id/removeAccountImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/large_space"
+                android:padding="@dimen/small_space"
+                android:visibility="gone"
+                app:srcCompat="@drawable/yes_sdk_ic_delete" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/actionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium_space"
+            android:layout_marginTop="@dimen/large_space"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/changePinTextView"
+                style="@style/yes_sdk_whiteSmall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/yes_sdk_change_pin"
+                android:textAllCaps="true"
+                android:textColor="?colorPrimary"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/borderView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/yes_sdk_gray" />
+</LinearLayout>

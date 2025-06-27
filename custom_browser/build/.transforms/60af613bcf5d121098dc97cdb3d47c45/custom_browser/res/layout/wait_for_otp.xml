@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/go_linear_layout"
+    android:orientation="vertical">
+
+    <View
+        style="@style/go_horizontal_line"
+        android:background="@color/go_border" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout_waiting_for_otp"
+        style="@style/go_linear_layout"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:background="#C8EAF2">
+
+        <LinearLayout
+            style="@style/go_linear_layout"
+            android:layout_height="42dp"
+            >
+
+            <TextView
+                style="@style/go_text_view"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="@dimen/go_eight"
+                android:layout_marginTop="@dimen/go_eight"
+                android:drawableTop="@drawable/slider"
+                android:gravity="center"
+                android:textColor="@color/go_textColor"
+                android:textSize="@dimen/go_sixteenScaled"
+                android:visibility="visible"
+                android:background="#066C94"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="@drawable/oval"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter OTP"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/key"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            style="@style/go_linear_layout"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#C8EAF2">
+
+            <LinearLayout
+                style="@style/go_linear_layout"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/go_twentyfour"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="#C8EAF2"
+                android:visibility="visible">
+
+                <include
+                    android:id="@+id/progress"
+                    layout="@layout/go_progressdialog"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/timer"
+                    style="@style/go_text_view"
+                    android:layout_marginTop="@dimen/go_four"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="#06394E"
+                    android:textSize="14sp"
+                    android:textStyle="normal"></TextView>
+                <TextView
+                    android:id="@+id/waiting"
+                    style="@style/go_text_view"
+                    android:layout_marginBottom="@dimen/go_eight"
+                    android:layout_marginTop="@dimen/go_eight"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/go_waiting_for_otp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/go_dark_grey"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/otp_recieved"
+                    style="@style/go_text_view"
+                    android:layout_marginTop="@dimen/go_twentyfour"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/go_otp_received"
+                    android:textColor="@color/go_otpReceivedColor"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/otp_sms"
+                    style="@style/go_edit_text"
+                    android:layout_height="40dp"
+                    android:layout_width="150dp"
+                    android:layout_marginBottom="@dimen/go_eight"
+                    android:ems="5"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:hint="****"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:textColor="@color/go_otpColor"
+                    android:textSize="25sp"
+                    android:visibility="gone"
+                    android:background="@drawable/dotted_bg">
+
+                    <requestFocus></requestFocus>
+                </EditText>
+
+
+                <Button
+                    android:id="@+id/approve"
+                    style="@style/go_approve_otp"
+                    android:layout_width="180dp"
+                    android:layout_height="36dp"
+                    android:layout_marginBottom="@dimen/go_twentyfour"
+                    android:layout_marginTop="@dimen/go_four"
+                    android:alpha=".3"
+                    android:background="@drawable/submit"
+                    android:clickable="false"
+                    android:textSize="1sp"
+                    android:text="approve"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/retry_text"
+                    style="@style/go_text_view"
+                    android:layout_marginBottom="@dimen/go_twelve"
+                    android:layout_marginTop="@dimen/go_eight"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/go_regenerate_otp_text"
+                    android:textColor="@color/go_dark_grey"
+                    android:textSize="18sp"
+                    android:visibility="gone"
+                    android:drawableTop="@drawable/waiting"/>
+
+                <LinearLayout
+                    android:id="@+id/regenerate_layout"
+                    style="@style/go_linear_layout"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="@dimen/go_twentyfour"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:id="@+id/pin_layout_gone"
+                        style="@style/go_linear_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:visibility="gone">
+
+                        <Button
+                            android:id="@+id/pin"
+                            style="@style/go_approve_otp"
+                            android:layout_width="150dp"
+                            android:layout_height="36dp"
+                            android:background="@drawable/approve_otp_button"
+                            android:paddingLeft="@dimen/go_eight"
+                            android:paddingRight="@dimen/go_eight"
+                            android:text="@string/go_password_value"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Enter_manually_gone"
+                        style="@style/go_linear_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="#C8EAF2"
+                        android:visibility="gone">
+
+                        <Button
+                            android:id="@+id/enter_manually"
+                            style="@style/go_approve_otp"
+                            android:layout_width="150dp"
+                            android:layout_height="36dp"
+                            android:background="@drawable/enter_manually"
+                            android:paddingLeft="@dimen/go_eight"
+                            android:paddingRight="@dimen/go_eight"
+                            android:textSize="1sp"
+                            android:text="Enter Manually"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/Regenerate_layout_gone"
+                        style="@style/go_linear_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="#C8EAF2"
+                        android:visibility="gone">
+
+                        <Button
+                            android:id="@+id/retry"
+                            style="@style/go_approve_otp"
+                            android:layout_width="150dp"
+                            android:layout_height="36dp"
+                            android:background="@drawable/approve_otp_button"
+                            android:paddingLeft="@dimen/go_eight"
+                            android:paddingRight="@dimen/go_eight"
+                            android:text="@string/go_regenerate_otp"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                style="@style/go_relative_layout"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#C8EAF2"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    style="@style/go_linear_layout"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:background="@null"
+                    android:gravity="left"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/go_text_view"
+                        android:layout_height="20dp"
+                        android:layout_width="20dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/powered_by"
+                        android:drawablePadding="@dimen/go_four"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/go_textColor"
+                        android:textSize="@dimen/go_twelveScaled"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/go_text_view"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="@dimen/go_four"
+                        android:background="@null"
+                        android:drawablePadding="@dimen/go_four"
+                        android:gravity="center_vertical"
+                        android:text="@string/go_powered_by"
+                        android:textColor="@color/go_textColor"
+                        android:textSize="15sp"
+                        android:textStyle="normal"
+
+                        />
+
+                    <TextView
+                        style="@style/go_text_view"
+                        android:layout_height="45dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="@dimen/go_four"
+                        android:background="@drawable/gopay"
+                        android:gravity="center"
+                        android:textColor="@color/go_textColor"
+                        android:textSize="@dimen/go_twelveScaled"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/go_linear_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@null">
+
+                    <ImageView
+                        android:id="@+id/bank_logo"
+                        style="@style/go_image_view"
+                        android:layout_gravity="right|center_vertical"
+                        android:background="@null"
+                        android:contentDescription="@string/go_bank_logo"
+                        android:paddingRight="5dp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

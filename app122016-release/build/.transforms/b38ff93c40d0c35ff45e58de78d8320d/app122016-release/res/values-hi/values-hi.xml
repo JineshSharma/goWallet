@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_hide">छुपाएँ</string>
+    <string name="action_resend">पुनः भेजें</string>
+    <string name="action_show">दिखाएँ</string>
+    <string name="app_name">एनपीसीआई सिक्योर पेमेंट</string>
+    <string name="back_button_exit_message">कृपया बाहर निकलने के लिए फिर से "वापस" बटन दबाएँ</string>
+    <string name="componentMessage">कृप्या निम्न जानकारी दर्ज करें</string>
+    <string name="detecting_otp">ओटीपी  खोज रहा है</string>
+    <string name="dismiss">बंद करें</string>
+    <string name="error_msg">तकनीकी समस्या। कृपया कुछ देर बाद प्रयास करें</string>
+    <string name="go_back">वापस</string>
+    <string name="info">जानकारी</string>
+    <string name="info_pins_dont_match">पिन मेल नहीं खाते</string>
+    <string name="invalid_otp">गलत ओटीपी</string>
+    <string name="not_right">कुछ गलत है</string>
+    <string name="npci_atm_title">एटीएम पिन दर्ज करें</string>
+    <string name="npci_confirm_mpin_title">यू.पी.आई. पिन पुष्टि करें</string>
+    <string name="npci_mpin_title">यू.पी.आई. पिन दर्ज करें</string>
+    <string name="npci_new_mpin_title">नया यू.पी.आई. पिन दर्ज करें</string>
+    <string name="npci_otp_title">ओटीपी दर्ज करें</string>
+    <string name="npci_set_mpin_title">यू.पी.आई. पिन तय करें</string>
+    <string name="ref_id">संदर्भ आईडी</string>
+</resources>

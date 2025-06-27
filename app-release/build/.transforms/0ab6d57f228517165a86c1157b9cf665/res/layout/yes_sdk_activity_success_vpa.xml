@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yes_sdk_light_gray">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/poweredByLyout">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/large_space"
+        android:layout_marginTop="@dimen/medium_space"
+        android:layout_marginLeft="@dimen/large_space"
+        android:layout_marginBottom="@dimen/large_space"
+        android:background="@color/yes_sdk_light_gray"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/yes_sdk_ic_success_shield" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/yes_sdk_blueSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/yes_sdk_success_vpa"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:id="@+id/upiDetailsTableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:padding="5dp">
+
+            <TableRow android:layout_marginTop="@dimen/medium_space">
+
+                <TextView
+                    style="@style/yes_sdk_textStyleInActiveMedium"
+                    android:padding="@dimen/small_space"
+                    android:text="@string/yes_sdk_upi_id" />
+
+                <include layout="@layout/yes_sdk_colon_text_view" />
+
+                <TextView
+                    android:id="@+id/upiIdTextView"
+                    style="@style/yes_sdk_blackMedium"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:padding="@dimen/small_space"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginTop="@dimen/medium_space">
+
+                <TextView
+                    style="@style/yes_sdk_textStyleInActiveMedium"
+                    android:padding="@dimen/small_space"
+                    android:text="@string/yes_sdk_mobileNo" />
+
+                <include layout="@layout/yes_sdk_colon_text_view" />
+
+                <TextView
+                    android:id="@+id/mobileNumberTextView"
+                    style="@style/yes_sdk_blackMedium"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:padding="@dimen/small_space"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/bankNameTableRow"
+                android:layout_marginTop="@dimen/medium_space"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/yes_sdk_textStyleInActiveMedium"
+                    android:padding="@dimen/small_space"
+                    android:text="@string/yes_sdk_bank_name" />
+
+                <include layout="@layout/yes_sdk_colon_text_view" />
+
+                <TextView
+                    android:id="@+id/bankNameTextView"
+                    style="@style/yes_sdk_blackMedium"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:padding="@dimen/small_space"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow android:layout_marginTop="@dimen/medium_space">
+
+                <TextView
+                    style="@style/yes_sdk_textStyleInActiveMedium"
+                    android:padding="@dimen/small_space"
+                    android:text="@string/yes_sdk_accountNo" />
+
+                <include layout="@layout/yes_sdk_colon_text_view" />
+
+                <TextView
+                    android:id="@+id/accountNumberTextView"
+                    style="@style/yes_sdk_blackMedium"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:padding="@dimen/small_space"
+                    android:text="" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/yes_sdk_blackMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/upiDetailsTableLayout"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Do you want to set UPI PIN for the bank account?" />
+
+        <TextView
+            android:id="@+id/yesButton"
+            style="@style/yes_sdk_blueSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_margin="@dimen/small_space"
+            android:layout_marginTop="@dimen/large_space"
+            android:paddingBottom="20dp"
+            android:gravity="center"
+            android:text="@string/yes_sdk_proceed_set_mpin" />
+
+    </RelativeLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/poweredByLyout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/registrationLayout"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/poweredByTextView"
+            style="@style/yes_sdk_whiteSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes_sdk_powered_by" />
+
+        <ImageView
+            android:id="@+id/headerImageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/yes_sdk_yes_ic_powered_by" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/registrationLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/noButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?colorPrimary"
+            android:text="@string/yes_sdk_no_set_mpin"
+            android:textAllCaps="false"
+            android:textColor="?android:attr/textColorPrimaryInverse" />
+
+        <Button
+            android:id="@+id/proceedButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="?colorPrimary"
+            android:text="@string/yes_sdk_proceed_transaction"
+            android:textAllCaps="false"
+            android:textColor="?android:attr/textColorPrimaryInverse"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/yes_sdk_view_error"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+</RelativeLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemRootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yes_sdk_white"
+    android:orientation="vertical">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yes_sdk_rectangle_gray"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/medium_space"
+        android:paddingLeft="@dimen/large_space">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/medium_space"
+            android:paddingRight="@dimen/medium_space"
+            android:paddingTop="@dimen/medium_space">
+
+
+            <ImageView
+                android:id="@+id/bankLogoImageView"
+                android:layout_width="@dimen/bank_img_hw"
+                android:layout_height="@dimen/bank_img_hw"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/yes_sdk_ic_bank" />
+
+
+            <TextView
+                android:id="@+id/accountTypeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/yes_sdk_rectangle_black_stroke"
+                android:paddingLeft="@dimen/medium_space"
+                android:paddingRight="@dimen/medium_space"
+                android:text="Savings"
+                android:textAllCaps="true"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/medium_space"
+            android:paddingRight="@dimen/medium_space"
+            android:paddingTop="@dimen/medium_space">
+
+            <TextView
+                android:id="@+id/accountNumberTextView"
+                style="@style/yes_sdk_whiteMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="********6622"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:id="@+id/bankNameTextView"
+                style="@style/yes_sdk_graySmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Axis Bank"
+                android:textAllCaps="true"
+                android:textSize="11dp" />
+
+
+            <TextView
+                android:id="@+id/ifscNumberTextView"
+                style="@style/yes_sdk_graySmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="IFSC :"
+                android:textAllCaps="true"
+                android:textSize="11dp" />
+
+            <TextView
+                android:id="@+id/upiPinLengthTextView"
+                style="@style/yes_sdk_graySmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="bottom"
+                android:text="UPI PIN LENGTH : 4"
+                android:textAllCaps="true"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/removeAccountImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/large_space"
+            android:layout_toLeftOf="@+id/primaryIndicatorImageView"
+            android:padding="@dimen/small_space"
+            android:visibility="visible"
+            app:srcCompat="@drawable/yes_sdk_ic_delete" />
+
+        <ImageView
+            android:id="@+id/primaryIndicatorImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/small_space"
+            android:visibility="visible"
+            app:srcCompat="@drawable/yes_sdk_ic_circle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/actionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerLayout"
+        android:layout_toRightOf="@id/bankLogoImageView"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="@dimen/large_space"
+        android:visibility="visible">
+
+
+        <TextView
+            android:id="@+id/balanceTextView"
+            style="@style/yes_sdk_whiteSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/yes_sdk_balance"
+            android:textAllCaps="true"
+            android:textColor="?colorPrimary"
+
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/changePinTextView"
+            style="@style/yes_sdk_whiteSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/yes_sdk_change_pin"
+            android:textAllCaps="true"
+            android:textColor="?colorPrimary"
+            android:textStyle="normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/setPinTextView"
+            style="@style/yes_sdk_whiteSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/yes_sdk_set_pin"
+            android:textAllCaps="true"
+            android:textColor="?colorPrimary"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/yes_sdk_gray" />
+</LinearLayout>

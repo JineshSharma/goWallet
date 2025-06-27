@@ -1,0 +1,2 @@
+# Referenced at C:\Users\gpldileep\Desktop\corrupt\backup\goWallet\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:57
+-keep class com.goprocessing.GoWalletApplication { <init>(); }

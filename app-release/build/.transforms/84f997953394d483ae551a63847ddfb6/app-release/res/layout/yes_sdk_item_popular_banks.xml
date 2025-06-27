@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yes_sdk_light_gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/itemLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/large_space"
+        android:background="@color/yes_sdk_light_gray"
+        android:foreground="?attr/selectableItemBackground"
+        android:orientation="vertical"
+        android:padding="@dimen/medium_space">
+
+        <ImageView
+            android:id="@+id/bankIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/large_space"
+            android:layout_marginRight="@dimen/large_space"
+            android:gravity="center"
+            android:padding="@dimen/avg_margin"
+            android:textStyle="bold"
+            app:srcCompat="@drawable/yes_sdk_ic_sbi" />
+
+        <TextView
+            android:id="@+id/bankName"
+            style="@style/yes_sdk_blackSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <!--<View
+        android:id="@+id/dividerView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/large_space"
+        android:layout_marginRight="@dimen/large_space"
+        android:background="@color/yes_sdk_gray" />-->
+</LinearLayout>

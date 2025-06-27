@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:app122016-release:unspecified@jar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app122016-release/build/.transforms/865941c81cf75531074b3862a9b006e5/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/app122016-release/build/.transforms/865941c81cf75531074b3862a9b006e5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app122016-release/build/.transforms/865941c81cf75531074b3862a9b006e5/res" />
+      <root url="jar://$PROJECT_DIR$/app122016-release/build/.transforms/865941c81cf75531074b3862a9b006e5/jars/libs/app122016.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app122016-release/build/.transforms/865941c81cf75531074b3862a9b006e5/jars/libs/classes-2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app122016-release/build/.transforms/865941c81cf75531074b3862a9b006e5/jars/libs/secure-component-sdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app122016-release/build/.transforms/865941c81cf75531074b3862a9b006e5/jars/libs/sun.misc.BASE64Decoder.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

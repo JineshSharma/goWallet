@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\gpldileep\\Desktop\\corrupt\\backup\\goWallet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\gpldileep\\.gradle\\caches\\transforms-2\\files-2.1\\1ebc7bc70f8351a304d600eabe098d30\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    },
+                    "to": {
+                        "startLines": "7,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "336,394",
+                        "endColumns": "57,55",
+                        "endOffsets": "389,445"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\gpldileep\\Desktop\\corrupt\\backup\\goWallet\\app-release\\build\\.transforms\\293147a97f1e741c20bc8ef96372fd10\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,110,164,229,293",
+                        "endColumns": "54,53,64,63,42",
+                        "endOffsets": "105,159,224,288,331"
+                    }
+                }
+            ]
+        }
+    ]
+}

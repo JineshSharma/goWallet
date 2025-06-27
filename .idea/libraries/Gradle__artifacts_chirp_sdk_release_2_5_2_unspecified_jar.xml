@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:chirp-sdk-release-2.5.2:unspecified@jar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/chirp-sdk-release-2.5.2/build/.transforms/cadc13259d7176d61fcec6505bbbf3f6/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/chirp-sdk-release-2.5.2/build/.transforms/cadc13259d7176d61fcec6505bbbf3f6/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/chirp-sdk-release-2.5.2/build/.transforms/cadc13259d7176d61fcec6505bbbf3f6/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

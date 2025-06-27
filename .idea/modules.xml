@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="goWallet/app" />
+      <module fileurl="file://$PROJECT_DIR$/app-release/app-release.iml" filepath="$PROJECT_DIR$/app-release/app-release.iml" group="goWallet/app-release" />
+      <module fileurl="file://$PROJECT_DIR$/app122016-release/app122016-release.iml" filepath="$PROJECT_DIR$/app122016-release/app122016-release.iml" group="goWallet/app122016-release" />
+      <module fileurl="file://$PROJECT_DIR$/chirp-sdk-release-2.5.2/chirp-sdk-release-2.5.2.iml" filepath="$PROJECT_DIR$/chirp-sdk-release-2.5.2/chirp-sdk-release-2.5.2.iml" group="goWallet/chirp-sdk-release-2.5.2" />
+      <module fileurl="file://$PROJECT_DIR$/custom_browser/custom_browser.iml" filepath="$PROJECT_DIR$/custom_browser/custom_browser.iml" group="goWallet/custom_browser" />
+      <module fileurl="file://$PROJECT_DIR$/goWallet.iml" filepath="$PROJECT_DIR$/goWallet.iml" group="goWallet" />
+      <module fileurl="file://$PROJECT_DIR$/truesdk-0.6/truesdk-0.6.iml" filepath="$PROJECT_DIR$/truesdk-0.6/truesdk-0.6.iml" group="goWallet/truesdk-0.6" />
+    </modules>
+  </component>
+</project>

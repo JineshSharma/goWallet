@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yes_sdk_light_gray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="?colorPrimary">
+
+        <TextView
+            style="@style/yes_sdk_whiteMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/yes_sdk_pending_collect"
+            android:textColor="@color/yes_sdk_white" />
+
+        <ImageView
+            android:id="@+id/infoVpaMobileImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="@dimen/large_space"
+            app:srcCompat="@drawable/yes_sdk_ic_info" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/proceedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?colorPrimary"
+        android:text="@string/yes_sdk_proceed"
+        android:textColor="@color/yes_sdk_white"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/collectRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/poweredByLayout"
+        android:layout_below="@+id/titleLayout" />
+
+    <LinearLayout
+        android:id="@id/poweredByLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/large_space"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/poweredByTextView"
+            style="@style/yes_sdk_whiteSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes_sdk_powered_by" />
+
+        <ImageView
+            android:id="@+id/headerImageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/yes_sdk_yes_ic_powered_by" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/errorView"
+        layout="@layout/yes_sdk_view_error"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone" />
+</RelativeLayout>

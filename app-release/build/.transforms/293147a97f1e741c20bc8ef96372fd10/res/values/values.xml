@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#34b0f3</color>
+    <color name="colorPrimary">#044E7F</color>
+    <color name="colorPrimaryDark">#044E7F</color>
+    <color name="yes_sdk_black">#323232</color>
+    <color name="yes_sdk_colorSelectedBlue">#34b0f3</color>
+    <color name="yes_sdk_darkBlue">#044E7F</color>
+    <color name="yes_sdk_gary">#747474</color>
+    <color name="yes_sdk_gray">#D0D3D4</color>
+    <color name="yes_sdk_inActive">#999999</color>
+    <color name="yes_sdk_light_blue">#34B0F3</color>
+    <color name="yes_sdk_light_gray">#EAE9EE</color>
+    <color name="yes_sdk_list_back">#f5f4f7</color>
+    <color name="yes_sdk_sim">#323232</color>
+    <color name="yes_sdk_textcolor">#939393</color>
+    <color name="yes_sdk_transparent">#00FFFFFF</color>
+    <color name="yes_sdk_white">#ffffff</color>
+    <dimen name="account_bank_img_height">25dp</dimen>
+    <dimen name="account_bank_img_width">25dp</dimen>
+    <dimen name="account_selection_bank_img_height">40dp</dimen>
+    <dimen name="account_selection_bank_img_width">40dp</dimen>
+    <dimen name="avg_margin">6dp</dimen>
+    <dimen name="bank_img_hw">45dp</dimen>
+    <dimen name="extra_large_space">24dp</dimen>
+    <dimen name="highlighted_padding">15dp</dimen>
+    <dimen name="icon_right_margin">12dp</dimen>
+    <dimen name="large_space">12dp</dimen>
+    <dimen name="medium_space">6dp</dimen>
+    <dimen name="min_margin">2dp</dimen>
+    <dimen name="normal_padding">10dp</dimen>
+    <dimen name="small_space">4dp</dimen>
+    <string name="default_web_client_id" translatable="false">388503048082-rnu8ni4k1hm5hgu0d3ea0r9vaeera7ip.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://yes-pay-upi.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">388503048082</string>
+    <string name="google_api_key" translatable="false">AIzaSyBcEYZmlIP8gn7i5pjW7v5APlCsBY-8iVQ</string>
+    <string name="google_app_id" translatable="false">1:388503048082:android:1f0ecfca2c24532a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBcEYZmlIP8gn7i5pjW7v5APlCsBY-8iVQ</string>
+    <string name="google_storage_bucket" translatable="false">yes-pay-upi.appspot.com</string>
+    <string name="invald_amount">Enter amount</string>
+    <string name="payment_confirmation">Payment Confirmation</string>
+    <string name="yes_sdk_aadhar_iin_vpa">%1$s@%2$s.iin.npci</string>
+    <string name="yes_sdk_aadhar_vpa">%1$s@aadhaar.npci</string>
+    <string name="yes_sdk_accept">ACCEPT</string>
+    <string name="yes_sdk_accountNo">Account Number</string>
+    <string name="yes_sdk_account_balance">Your Balance : </string>
+    <string name="yes_sdk_account_ifsc_vpa">%1$s@%2$s.ifsc.npci</string>
+    <string name="yes_sdk_add_account">ADD ACCOUNT</string>
+    <string name="yes_sdk_add_account_success_msg">Account is added successfully.</string>
+    <string name="yes_sdk_add_bank_account"><u>Add New Bank Account</u></string>
+    <string name="yes_sdk_amount">Amount :</string>
+    <string name="yes_sdk_amount_in_rupees">\u20B9 %1$s</string>
+    <string name="yes_sdk_amount_range">Transaction amount limit should be between ₹</string>
+    <string name="yes_sdk_amount_range_note2">and ₹</string>
+    <string name="yes_sdk_amount_valid_chars">1234567890.</string>
+    <string name="yes_sdk_answer_security_question">You need to provide the registered/old Mobile Number along with the secret Answer to proceed ahead for updating the device details with us.</string>
+    <string name="yes_sdk_answer_security_question_error">Please enter the Secret Answer.</string>
+    <string name="yes_sdk_app_name">YES BANK UPI - UI</string>
+    <string name="yes_sdk_awaiting_confirmation_from_the_upi_app">Awaiting confirmation from the UPI app</string>
+    <string name="yes_sdk_balance">VIEW BALANCE</string>
+    <string name="yes_sdk_bank_name">Bank Name</string>
+    <string name="yes_sdk_bank_name_account_type">%1$s (%2$s)</string>
+    <string name="yes_sdk_cancelled_by_user">Cancelled by user</string>
+    <string name="yes_sdk_cancle">CANCEL</string>
+    <string name="yes_sdk_card_details">Enter your Debit Card details:</string>
+    <string name="yes_sdk_change_pin">CHANGE PIN</string>
+    <string name="yes_sdk_change_pin_success_msg">UPI PIN is changed successfully.</string>
+    <string name="yes_sdk_close">Close</string>
+    <string name="yes_sdk_collect_header">Provide the UPI ID you wish to pay from</string>
+    <string name="yes_sdk_colon_before_text">%1$s</string>
+    <string name="yes_sdk_colon_in_between_text">%1$s  : %2$s</string>
+    <string name="yes_sdk_create_new_upi_id">Create new UPI ID</string>
+    <string name="yes_sdk_debit_details_not_selected">Enter Debit Card details</string>
+    <string name="yes_sdk_debit_details_six_digits">Enter the last six digits</string>
+    <string name="yes_sdk_decline">DECLINE</string>
+    <string name="yes_sdk_default_account_success_msg">Primary Account is successfuly set</string>
+    <string name="yes_sdk_default_sim">Default\nSim</string>
+    <string name="yes_sdk_density">MDPI</string>
+    <string name="yes_sdk_deny">Deny</string>
+    <string name="yes_sdk_deregister"><u>Deregister</u></string>
+    <string name="yes_sdk_deregister_content">Your UPI registration including your UPI ID and linked bank account information will be removed and you will no longer be able to use YES Bank UPI services. In case of any issues, you can reach out to us:</string>
+    <string name="yes_sdk_deregister_success_msg">You are successfully deregistered</string>
+    <string name="yes_sdk_device_fingerprint_missmatch">Device Fingerprint mismatch</string>
+    <string name="yes_sdk_do_not_press_back_or_close_the_app">Note: Do not press back or close the app</string>
+    <string name="yes_sdk_done">Done!</string>
+    <string name="yes_sdk_enter_amount">Enter Amount</string>
+    <string name="yes_sdk_enter_answer">Enter Secret Answer</string>
+    <string name="yes_sdk_enter_old_mobileNo_question">What is your registered Mobile Number?</string>
+    <string name="yes_sdk_enter_old_mobileno">Enter 10 digit Mobile Number</string>
+    <string name="yes_sdk_enter_valid_mobileno">Enter 10 digit mobile Number</string>
+    <string name="yes_sdk_enter_vpa_no">Enter UPI ID</string>
+    <string name="yes_sdk_error_invalid_month">Invalid value for Month!</string>
+    <string name="yes_sdk_error_invalid_year">Invalid value for Year!</string>
+    <string name="yes_sdk_error_no_linked_accounts">We could not find any accounts linked with the selected bank. Please choose a bank where you
+have registered this Mobile Number %1$s</string>
+    <string name="yes_sdk_error_year_min_max_limit">Year must be between %1$d and %2$d</string>
+    <string name="yes_sdk_expiry_date">Expiry Date</string>
+    <string name="yes_sdk_fetching_balance">Fetching Balance…</string>
+    <string name="yes_sdk_found_accounts_title">WE HAVE FOUND THE BELOW ACCOUNTS</string>
+    <string name="yes_sdk_from">From</string>
+    <string name="yes_sdk_go_back">Go Back</string>
+    <string name="yes_sdk_i_wish_to_make_upi_payments_from_this_app">Make this UPI ID as default for all UPI Payments</string>
+    <string name="yes_sdk_initiate_collect_request">Initiate Collect Request</string>
+    <string name="yes_sdk_invalid_answer">Enter valid Answer</string>
+    <string name="yes_sdk_invalid_mobilNo">Enter valid mobile number</string>
+    <string name="yes_sdk_invalid_payee_details">Enter valid Payee Details</string>
+    <string name="yes_sdk_invalid_payment_details">Invalid Payment Details</string>
+    <string name="yes_sdk_invalid_vpa">Enter valid VPA</string>
+    <string name="yes_sdk_last_six_digits">Last 6 Digits</string>
+    <string name="yes_sdk_link_new_account">New Bank Account</string>
+    <string name="yes_sdk_loading">Loading…</string>
+    <string name="yes_sdk_loading_account_list">Fetching Your Accounts…</string>
+    <string name="yes_sdk_m">MM</string>
+    <string name="yes_sdk_mobileNo">Mobile Number</string>
+    <string name="yes_sdk_mobile_mmid_vpa">%1$s@%2$s.mmid.npci</string>
+    <string name="yes_sdk_need_permission">All Permissions should be granted in order to access this feature</string>
+    <string name="yes_sdk_networkIssue">Could not connect to the Internet. Please try again later.</string>
+    <string name="yes_sdk_new_registration">You want a new UPI ID? Tap on below button</string>
+    <string name="yes_sdk_no">No</string>
+    <string name="yes_sdk_no_expiry_date_try_01_49">No Expiry Date? Try 01/49</string>
+    <string name="yes_sdk_no_intent_app">No Intent app</string>
+    <string name="yes_sdk_no_internet_connection">Could not connect to the Internet</string>
+    <string name="yes_sdk_no_set_mpin">PROCEED (SKIP PIN GENERATION)</string>
+    <string name="yes_sdk_no_sim_available">SIM card is missing</string>
+    <string name="yes_sdk_no_such_a_bank">No Such A Bank !\nCheck with your bank !</string>
+    <string name="yes_sdk_note">Note</string>
+    <string name="yes_sdk_notes">Notes :</string>
+    <string name="yes_sdk_okay">OK</string>
+    <string name="yes_sdk_only_balance">BALANCE</string>
+    <string name="yes_sdk_only_set_pin">SET PIN</string>
+    <string name="yes_sdk_open_another_upi_app"><u>Open another UPI App</u></string>
+    <string name="yes_sdk_otherapp"><u>Pay Using other UPI Apps</u></string>
+    <string name="yes_sdk_payee_name">Payee Name</string>
+    <string name="yes_sdk_payee_upi_id">Payee UPI ID</string>
+    <string name="yes_sdk_payee_vpa">Payee VPA :</string>
+    <string name="yes_sdk_paymentexp">This will enable \n a one touch payment experiance</string>
+    <string name="yes_sdk_payusingotherapp">Other UPI ID</string>
+    <string name="yes_sdk_pending_collect">Pending UPI Collect Requests</string>
+    <string name="yes_sdk_permission">Permission</string>
+    <string name="yes_sdk_please_check_network">Could not connect to the Internet. Please try again later.</string>
+    <string name="yes_sdk_powered_by">Powered By</string>
+    <string name="yes_sdk_proceed">PROCEED</string>
+    <string name="yes_sdk_proceed_deregister">PROCEED TO DEREGISTER</string>
+    <string name="yes_sdk_proceed_set_mpin"><u>PROCEED TO SET UPI PIN</u></string>
+    <string name="yes_sdk_proceed_to_pay">Proceed To Pay</string>
+    <string name="yes_sdk_proceed_transaction">PROCEED TO PAY</string>
+    <string name="yes_sdk_proceedtolinkaccount">PROCEED TO LINK ACCOUNT</string>
+    <string name="yes_sdk_provide_your_answer">Provide your Secret Answer</string>
+    <string name="yes_sdk_ref_id">Ref ID</string>
+    <string name="yes_sdk_registration"><u>Create a new UPI ID</u></string>
+    <string name="yes_sdk_remove_account_success_msg">Account is delinked</string>
+    <string name="yes_sdk_remove_warning">Do you want to unlink this Account?</string>
+    <string name="yes_sdk_root_error">Dear Customer, your mobile device is using customized or rooted operating system.</string>
+    <string name="yes_sdk_rooted_device">This feature is not supported on Rooted Devices due to security guidelines.\nOr the current device doesnot have SIM! \n You cannot use UPI in this device</string>
+    <string name="yes_sdk_rooted_device_title">Oh Oh ! It\'s An Unreliable Device ! </string>
+    <string name="yes_sdk_rs">\u20B9</string>
+    <string name="yes_sdk_rupee">\u20B9</string>
+    <string name="yes_sdk_search_bank">Search Bank</string>
+    <string name="yes_sdk_security_answer">Secret Answer</string>
+    <string name="yes_sdk_security_questions_hint">Secret Question</string>
+    <string name="yes_sdk_security_questions_title">ONE LAST STEP</string>
+    <string name="yes_sdk_select_account_to_proceed">Select the Account</string>
+    <string name="yes_sdk_select_another_bank">Select Another Bank</string>
+    <string name="yes_sdk_select_bank">Select Your Bank</string>
+    <string name="yes_sdk_select_heading">Select SIM</string>
+    <string name="yes_sdk_select_the_bank_account">Choose where to pay from:</string>
+    <string name="yes_sdk_selecte_sim">Select the SIM from which SMS will be sent</string>
+    <string name="yes_sdk_session_expired">Session Expired !</string>
+    <string name="yes_sdk_session_expired_details">It\'s been a long while since your last interaction!\n Don\'t panic, You can Signin Back</string>
+    <string name="yes_sdk_set_mpin_otp_text">You will receive an OTP from your bank!\nUse it on the next page.</string>
+    <string name="yes_sdk_set_pin">SET UPI PIN</string>
+    <string name="yes_sdk_sign_in">Sign In</string>
+    <string name="yes_sdk_sim1">SIM 1</string>
+    <string name="yes_sdk_sim2">SIM 2</string>
+    <string name="yes_sdk_skip">SKIP</string>
+    <string name="yes_sdk_sms">We will send an SMS from \n your device for Registration</string>
+    <string name="yes_sdk_smsText_lowerdevice">Please make sure that the selected SIM is registered with your Bank</string>
+    <string name="yes_sdk_sms_cost">We will send an SMS* from your device to verify if your mobile number is registered with your bank</string>
+    <string name="yes_sdk_ssl_pining_error">Unsecured access</string>
+    <string name="yes_sdk_success_vpa">You are successfully registered!</string>
+    <string name="yes_sdk_technical_error">Technical Error</string>
+    <string name="yes_sdk_time_remaining">Time Remaining:\n %1$d Seconds</string>
+    <string name="yes_sdk_tnc">By proceeding ahead,you agree to the <u>Terms &amp; Conditions</u>. *Regular carrier charges may apply.</string>
+    <string name="yes_sdk_toll_free_number">1800 2000 (toll free)</string>
+    <string name="yes_sdk_tooltip_collect_request">List of Collect Requests initiated by others. Requires your UPI PIN to accept the request</string>
+    <string name="yes_sdk_tooltip_expiry">Expiry Date of the above Card</string>
+    <string name="yes_sdk_tooltip_last_six_digits">Please enter the last six digits of the debit card which is linked to the above bank account</string>
+    <string name="yes_sdk_tooltip_mobile">Virtual Payment Address (VPA/UPI ID) is your personalised payment ID which you can share with anyone for sending and receiving money from your bank account.</string>
+    <string name="yes_sdk_tooltip_use_other_app">We will open external UPI Apps which you can use for completing the payment</string>
+    <string name="yes_sdk_tooltip_vpa">VPA/UPI ID is your personalised payment ID
+        which you can share with anyone for sending and receiving money from your bank account</string>
+    <string name="yes_sdk_tooltip_your_secret_question">This was set as the time of registration
+        Please provide your answer</string>
+    <string name="yes_sdk_transaction_amount">Transaction Amount</string>
+    <string name="yes_sdk_try_again">RETRY</string>
+    <string name="yes_sdk_un_auth_connection">Oh Oh ! Can\'t make stable connection</string>
+    <string name="yes_sdk_un_auth_connection_details">Seems like it\'s unreliable connection ! Please try again after some times</string>
+    <string name="yes_sdk_un_ssl_fail_details">Seems like it\'s an Insecure connection ! We\'ll get this up in while,\nPlease try again after sometimes</string>
+    <string name="yes_sdk_unable_to_send_sms">We could not send SMS. Please check if you have proper network connectivity and sufficient balance. Please try again.</string>
+    <string name="yes_sdk_update_device">Your using different device which is not registered with us. You need to provide the Secret Answer to proceed ahead for updating the device details with us.</string>
+    <string name="yes_sdk_update_header">Update Mobile Number</string>
+    <string name="yes_sdk_update_mobileNo">You are using a different SIM which is not registered with us. We need to send an SMS from your device for verification.</string>
+    <string name="yes_sdk_upi_id">Your UPI ID</string>
+    <string name="yes_sdk_upi_pin_length">UPI PIN LENGTH :</string>
+    <string name="yes_sdk_upi_pin_link_success_msg">UPI PIN was successfuly generated.</string>
+    <string name="yes_sdk_valid_chars">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 !@#$%*_-/.</string>
+    <string name="yes_sdk_valid_chars_security_answer">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 _-/.</string>
+    <string name="yes_sdk_valid_till">Valid Till</string>
+    <string name="yes_sdk_validate">Validate</string>
+    <string name="yes_sdk_verify_desc">We need to send an SMS from your phone.</string>
+    <string name="yes_sdk_verify_heading">Verify Mobile Number</string>
+    <string name="yes_sdk_verify_mobile_text">Verifying Mobile Number</string>
+    <string name="yes_sdk_verifying_device">Verifying Device…</string>
+    <string name="yes_sdk_vpa">UPI ID</string>
+    <string name="yes_sdk_vpa_and_name">%1$s\n(%2$s)</string>
+    <string name="yes_sdk_vpa_blank">Please enter UPI ID</string>
+    <string name="yes_sdk_vpa_handle">\u0040yesb</string>
+    <string name="yes_sdk_vpa_not_available">Virtual address not available for transaction.</string>
+    <string name="yes_sdk_y">YY</string>
+    <string name="yes_sdk_yes">Yes</string>
+    <string name="yes_sdk_yestouch">yestouch@yesbank.in</string>
+    <string name="yes_sdk_your_vpa">Your VPA/UPI ID</string>
+    <style name="SDKTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/yes_sdk_white</item>
+        
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="SDKTheme.Transparent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="yes_sdk_DialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@color/yes_sdk_transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="yes_sdk_MediumBlackInputLayout" parent="SDKTheme">
+        <item name="android:textColor">@color/yes_sdk_black</item>
+        <item name="android:textColorHint">@color/yes_sdk_inActive</item>
+    </style>
+    <style name="yes_sdk_blackMedium" parent="SDKTheme">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColorHint">@color/yes_sdk_inActive</item>
+        <item name="android:textColor">@color/yes_sdk_black</item>
+    </style>
+    <style name="yes_sdk_blackMediumMarquee" parent="SDKTheme">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColorHint">@color/yes_sdk_inActive</item>
+        <item name="android:textColor">@color/yes_sdk_white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="yes_sdk_blackSmall" parent="SDKTheme">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/yes_sdk_black</item>
+    </style>
+    <style name="yes_sdk_blueMedium" parent="SDKTheme">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="yes_sdk_blueSmall" parent="SDKTheme">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="yes_sdk_dividerStyle" parent="SDKTheme">
+        <item name="android:layout_marginTop">@dimen/medium_space</item>
+        <item name="android:layout_marginBottom">@dimen/medium_space</item>
+        <item name="android:background">@color/yes_sdk_gray</item>
+    </style>
+    <style name="yes_sdk_graySmall" parent="SDKTheme">
+        <item name="android:textColor">@color/yes_sdk_gary</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="yes_sdk_textStyleInActiveMedium" parent="SDKTheme">
+        <item name="android:textColor">@color/yes_sdk_inActive</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="yes_sdk_textStyleInActiveSmall" parent="SDKTheme">
+        <item name="android:textColor">@color/yes_sdk_inActive</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="yes_sdk_textStyleSmallBlack" parent="SDKTheme">
+        <item name="android:textColor">@color/yes_sdk_black</item>
+        <item name="android:textColorHint">@color/yes_sdk_inActive</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+    <style name="yes_sdk_textStyleWhiteSmall" parent="SDKTheme">
+        <item name="android:textColor">@color/yes_sdk_white</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="yes_sdk_titleTextStyleBlackLarge" parent="SDKTheme">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/yes_sdk_black</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+    <style name="yes_sdk_titleTextStyleWhite" parent="SDKTheme">
+        <item name="android:textColor">@color/yes_sdk_black</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+    <style name="yes_sdk_titleTextStyleWhiteLarge" parent="SDKTheme">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/yes_sdk_black</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+    <style name="yes_sdk_titleTextStyleWhiteSmall" parent="SDKTheme">
+        <item name="android:textColor">@color/yes_sdk_black</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="yes_sdk_whiteMedium" parent="SDKTheme">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/yes_sdk_black</item>
+    </style>
+    <style name="yes_sdk_whiteSmall" parent="SDKTheme">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/yes_sdk_black</item>
+    </style>
+</resources>

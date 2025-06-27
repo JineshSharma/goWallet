@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="npci_key_digit_color">#1B3281</color>
+    <color name="npci_key_digit_color_dark">#0A1A53</color>
+    <color name="npci_keypad_bg_color">#F1F1F1</color>
+    <color name="npci_shadow_color">#b3000000</color>
+    <color name="npci_text_disabled_light">#4dffffff</color>
+    <color name="npci_text_primary_dark">#de000000</color>
+    <color name="npci_text_primary_light">#ffffffff</color>
+    <color name="npci_text_secondary_dark">#8a000000</color>
+    <color name="npci_text_secondary_light">#b3ffffff</color>
+    <color name="npci_text_tertiary_dark">#61000000</color>
+    <declare-styleable name="FormItemEditText"><attr format="enum" name="pinAnimationType"><enum name="popIn" value="0"/><enum name="fromBottom" value="1"/><enum name="none" value="-1"/></attr><attr format="string" name="pinCharacterMask"/><attr format="dimension" name="pinCharacterSize"/><attr format="dimension" name="pinFontSize"/><attr format="string" name="pinRepeatedHint"/><attr format="dimension" name="pinLineStroke"/><attr format="dimension" name="pinLineStrokeSelected"/><attr format="boolean" name="pinLineStrokeCentered"/><attr format="dimension" name="pinCharacterSpacing"/><attr format="dimension" name="pinTextBottomPadding"/><attr format="color" name="pinLineColors"/><attr format="reference" name="pinBackgroundDrawable"/><attr format="boolean" name="pinBackgroundIsSquare"/></declare-styleable>
+    <declare-styleable name="FormItemView"><attr format="string" name="formTitle"/><attr format="integer" name="formInputLength"/><attr format="string" name="formValidationError"/><attr format="boolean" name="formActionOnTop"/></declare-styleable>
+    <declare-styleable name="Keypad"><attr format="color" name="keypad_bg_color"/><attr format="color" name="key_digit_color"/><attr format="dimension" name="key_digit_size"/><attr format="dimension" name="key_digit_height"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <dimen name="button_padding">5dp</dimen>
+    <dimen name="keyboard_height">264dp</dimen>
+    <string name="action_hide">HIDE</string>
+    <string name="action_resend">RESEND</string>
+    <string name="action_show">SHOW</string>
+    <string name="app_name">NPCI Secure Payment</string>
+    <string name="back_button_exit_message">Please hit BACK button again to exit</string>
+    <string name="componentMessage">Please enter the requested information</string>
+    <string name="detecting_otp">Detecting OTP</string>
+    <string name="dismiss">DISMISS</string>
+    <string name="error_msg">Technical Issue, please try after some time</string>
+    <string name="go_back">GO BACK</string>
+    <string name="info">INFO</string>
+    <string name="info_pins_dont_match">PINs don\'t match</string>
+    <string name="invalid_otp">Invalid OTP</string>
+    <string name="not_right">Something\'s not right</string>
+    <string name="npci_atm_title">ENTER ATM PIN</string>
+    <string name="npci_confirm_mpin_title">CONFIRM UPI PIN</string>
+    <string name="npci_mpin_title">ENTER UPI PIN</string>
+    <string name="npci_new_mpin_title">ENTER NEW UPI PIN</string>
+    <string name="npci_otp_title">ENTER OTP</string>
+    <string name="npci_set_mpin_title">SET UPI PIN</string>
+    <style name="ActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/npci_key_digit_color</item>
+        <item name="colorPrimary">@color/npci_key_digit_color_dark</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="PopupAnimation">
+        <item name="android:windowEnterAnimation">@anim/npci_slide_in_top</item>
+        <item name="android:windowExitAnimation">@anim/npci_slide_out_top</item>
+    </style>
+</resources>

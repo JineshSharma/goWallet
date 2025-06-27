@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yes_sdk_light_gray">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/large_space"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/vpaLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/vpaHeaderTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/yes_sdk_your_vpa"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="?colorPrimary"
+                    android:textColorHint="@color/yes_sdk_inActive"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <!--<LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+
+                    </LinearLayout>-->
+                    <EditText
+                        android:id="@+id/vpaEditText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/yes_sdk_transparent"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-."
+                        android:gravity="right"
+                        android:hint="@string/yes_sdk_enter_vpa_no"
+                        android:imeOptions="actionDone"
+                        android:inputType="textNoSuggestions"
+                        android:maxLength="251"
+                        android:singleLine="true"
+                        android:textAllCaps="false"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#4A4A4B" />
+
+                    <TextView
+                        android:id="@+id/vpaHandleTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/yes_sdk_vpa_handle"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#4A4A4B" />
+
+                    <ImageView
+                        android:id="@+id/infoVpaImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="@dimen/large_space"
+                        app:srcCompat="@drawable/yes_sdk_ic_info_dark_grey" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vpaLayout"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/yes_sdk_blackMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/avg_margin"
+                    android:text="@string/yes_sdk_select_bank"
+                    android:textAllCaps="true"
+                    android:textColor="?colorPrimary"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <View
+                    style="@style/yes_sdk_dividerStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/popularBankRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/noPopBankTextview"
+                    style="@style/yes_sdk_blackMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/yes_sdk_no_such_a_bank"
+                    android:visibility="gone" />
+
+                <View
+                    style="@style/yes_sdk_dividerStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+                <EditText
+                    android:id="@+id/searchBankNameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/large_space"
+                    android:background="@drawable/yes_sdk_rectangle_search"
+                    android:drawablePadding="@dimen/large_space"
+                    android:gravity="center_vertical"
+                    android:hint="@string/yes_sdk_search_bank"
+                    android:paddingLeft="@dimen/large_space"
+                    android:singleLine="true" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/bankRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible">
+
+                </android.support.v7.widget.RecyclerView>
+
+                <TextView
+                    android:id="@+id/noAllBankTextview"
+                    style="@style/yes_sdk_blackMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/yes_sdk_no_such_a_bank"
+                    android:visibility="gone" />
+
+
+                <LinearLayout
+                    android:id="@+id/poweredByLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/large_space"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/poweredByTextView"
+                        style="@style/yes_sdk_whiteSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/yes_sdk_powered_by" />
+
+                    <ImageView
+                        android:id="@+id/headerImageView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/yes_sdk_yes_ic_powered_by" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <include
+        layout="@layout/yes_sdk_view_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+</RelativeLayout>

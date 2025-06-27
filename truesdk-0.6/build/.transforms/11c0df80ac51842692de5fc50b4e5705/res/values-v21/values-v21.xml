@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="com_truecaller_truebutton_text_style" parent="@android:style/TextAppearance.Inverse">
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:padding">@dimen/com_truecaller_truebutton_padding</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:elevation">@dimen/com_truecaller_truebutton_elevation</item>
+    </style>
+</resources>

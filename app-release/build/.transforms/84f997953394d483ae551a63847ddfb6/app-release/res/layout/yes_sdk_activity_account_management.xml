@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yes_sdk_light_gray">
+
+
+    <include layout="@layout/yes_sdk_custom_acmgt_titlebar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/accountsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/deregisterTextView"
+        android:layout_below="@+id/titleLayout" />
+
+    <TextView
+        android:id="@+id/deregisterTextView"
+        style="@style/yes_sdk_whiteSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/payThroughOtherAppLayout"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/small_space"
+        android:text="@string/yes_sdk_deregister"
+        android:textColor="?colorPrimary" />
+
+    <LinearLayout
+        android:id="@+id/payThroughOtherAppLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/poweredByLayout"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/payThroughOtherAppCheckBox"
+        style="@style/yes_sdk_whiteSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/yes_sdk_i_wish_to_make_upi_payments_from_this_app"
+        android:layout_above="@+id/poweredByLayout"
+        android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/poweredByLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addAccountButton"
+        android:layout_marginBottom="@dimen/large_space"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/poweredByTextView"
+            style="@style/yes_sdk_whiteSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes_sdk_powered_by" />
+
+        <ImageView
+            android:id="@+id/headerImageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/yes_sdk_yes_ic_powered_by" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addAccountButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?colorPrimary"
+        android:text="@string/yes_sdk_add_account"
+        android:textColor="@color/yes_sdk_white" />
+
+    <include
+        android:id="@+id/errorView"
+        layout="@layout/yes_sdk_view_error"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone" />
+</RelativeLayout>

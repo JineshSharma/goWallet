@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contentRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+&lt;!&ndash;        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/poweredByLyout">&ndash;&gt;
+
+         &lt;!&ndash;   <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">&ndash;&gt;
+
+                <TextView
+                    android:id="@+id/skipTextView"
+                    style="@style/yes_sdk_blueSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:padding="@dimen/large_space"
+                    android:text="@string/yes_sdk_skip"
+                    android:textColor="#999999"
+                    android:textStyle="normal" />
+
+                <LinearLayout
+                    android:layout_below="@+id/skipTextView"
+                    android:id="@+id/headerLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/extra_large_space"
+                    android:background="@null"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/headerTextView"
+                        style="@style/yes_sdk_whiteMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="25dp"
+                        android:text="@string/yes_sdk_verify_heading"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/descTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="@string/yes_sdk_verify_desc"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:visibility="gone" />
+
+
+                    <LinearLayout
+                        android:id="@+id/notesLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/noteHeaderTextView"
+                            style="@style/yes_sdk_whiteMedium"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/yes_sdk_notes"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/noteOneTextView"
+                            style="@style/yes_sdk_titleTextStyleWhiteSmall"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/large_space"
+                            android:layout_marginTop="@dimen/large_space"
+                            android:gravity="left"
+                            android:text="@string/yes_sdk_sms_cost" />
+
+
+                        <TextView
+                            android:id="@+id/noteTwoTextView"
+                            style="@style/yes_sdk_titleTextStyleWhiteSmall"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/yes_sdk_smsText_lowerdevice"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_below="@+id/headerLinearLayout"
+                    android:layout_above="@+id/termsConditionTextView"
+                    android:id="@+id/simSelectionRelativeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <TextView
+                        android:id="@+id/selectTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="@string/yes_sdk_select_heading"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/simLinearLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:gravity="center_horizontal"
+                        android:layout_centerInParent="true"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/primarySimLinearLayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@null"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/primaryTextView_"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/yes_sdk_sim1"
+                                android:textColor="@color/yes_sdk_black" />
+
+                            <ImageView
+                                android:id="@+id/primaryImageView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                app:srcCompat="@drawable/yes_sdk_ic_sim_selected" />
+
+                            <TextView
+                                android:id="@+id/primaryProviderTextView"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:ellipsize="end"
+                                android:lines="1"
+                                android:textAlignment="center"
+                                android:textColor="@color/yes_sdk_black"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/dividerView"
+                            android:layout_width="0.5dp"
+                            android:layout_height="match_parent"
+                            android:background="#D9D9D9"
+                            android:visibility="gone" />
+
+                        <LinearLayout
+                            android:id="@+id/secondarySimLinearLayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@null"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/simTwoTextView_"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/yes_sdk_sim2"
+                                android:textColor="@color/yes_sdk_black" />
+
+                            <ImageView
+                                android:id="@+id/simTwoImageView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                app:srcCompat="@drawable/yes_sdk_ic_sim_normal" />
+
+                            <TextView
+                                android:id="@+id/simTwoProviderTextView"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:ellipsize="end"
+                                android:lines="1"
+                                android:textAlignment="center"
+                                android:textColor="@color/yes_sdk_black"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+
+                </RelativeLayout>
+&lt;!&ndash;
+            </LinearLayout>&ndash;&gt;
+   &lt;!&ndash;     </ScrollView>&ndash;&gt;
+
+    <TextView
+        android:id="@+id/termsConditionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/otherAppButton"
+        android:layout_marginLeft="@dimen/extra_large_space"
+        android:gravity="left"
+        android:text="@string/yes_sdk_tnc"
+        android:textColor="#949394"
+        android:textAlignment="inherit"
+        android:layout_marginBottom="10dp"
+        android:textSize="14dp"
+        android:visibility="visible" />
+        <TextView
+            android:id="@+id/otherAppButton"
+            style="@style/yes_sdk_blueSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/poweredByLyout"
+            android:layout_centerInParent="true"
+            android:text="@string/yes_sdk_otherapp"
+            android:textAlignment="center"
+            android:visibility="gone"
+            />
+        <LinearLayout
+            android:id="@+id/poweredByLyout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/submitImageView"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/poweredByTextView"
+                style="@style/yes_sdk_whiteSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yes_sdk_powered_by" />
+
+            <ImageView
+                android:id="@+id/headerImageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yes_sdk_yes_ic_powered_by" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submitImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="?colorPrimary"
+            android:clickable="true"
+            android:text="@string/yes_sdk_proceed"
+            android:textColor="@color/yes_sdk_white" />
+    </RelativeLayout>-->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/smsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:background="@color/yes_sdk_light_gray"
+    android:visibility="visible">
+
+    <TextView
+        android:id="@+id/reverifyTitle"
+        style="@style/yes_sdk_whiteMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/extra_large_space"
+        android:gravity="center"
+        android:text="@string/yes_sdk_update_header"
+        android:visibility="gone" />
+
+    <include layout="@layout/yes_sdk_custom_titlebar" />
+
+    <RelativeLayout
+        android:id="@+id/mobileNoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/reVerifyNoteLayout"
+        android:layout_below="@id/titleLayout"
+        android:layout_margin="@dimen/large_space"
+        android:layout_marginLeft="@dimen/large_space"
+        android:layout_marginRight="@dimen/large_space"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/noteTextView"
+            style="@style/yes_sdk_whiteMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/declineTextView"
+                style="@style/yes_sdk_whiteMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/extra_large_space"
+                android:background="?colorPrimary"
+                android:padding="@dimen/medium_space"
+                android:text="@string/yes_sdk_decline"
+                android:textAlignment="center"
+                android:textColor="@color/yes_sdk_white"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/acceptTextView"
+                style="@style/yes_sdk_whiteMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/extra_large_space"
+                android:background="?colorPrimary"
+                android:gravity="center"
+                android:padding="@dimen/medium_space"
+                android:text="@string/yes_sdk_accept"
+                android:textAlignment="center"
+                android:textColor="@color/yes_sdk_white" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/updateDeviceLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/reVerifyNoteLayout"
+        android:layout_below="@+id/titleLayout"
+        android:background="@drawable/yes_sdk_square_transperent_background"
+        android:padding="@dimen/large_space"
+        android:visibility="gone">
+
+
+        <RelativeLayout
+            android:id="@+id/existingMobileLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/mobileIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/large_space"
+                app:srcCompat="@drawable/yes_sdk_ic_account_no" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/mobileNoTextInput"
+                style="@style/yes_sdk_titleTextStyleWhiteLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/mobileIcon"
+                android:layout_toRightOf="@+id/mobileIcon">
+
+                <EditText
+                    android:id="@+id/mobileNumberEditText"
+                    style="@style/yes_sdk_titleTextStyleWhiteLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/yes_sdk_enter_old_mobileno"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/securityIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/existingMobileLayout"
+            android:layout_marginRight="@dimen/large_space"
+            app:srcCompat="@drawable/yes_sdk_ic_account_no" />
+
+        <TextView
+            android:id="@+id/securityQuestion"
+            style="@style/yes_sdk_whiteMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/securityIcon"
+            android:layout_below="@+id/existingMobileLayout"
+            android:layout_toEndOf="@+id/securityIcon"
+            android:layout_toRightOf="@+id/securityIcon"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/infoSecurityQuestionImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/securityQuestion"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/large_space"
+            app:srcCompat="@drawable/yes_sdk_ic_info_dark_grey" />
+
+        <EditText
+            android:id="@+id/securityAnswerEditText"
+            style="@style/yes_sdk_whiteMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/securityQuestion"
+            android:layout_toEndOf="@+id/securityIcon"
+            android:layout_toLeftOf="@id/infoSecurityQuestionImageView"
+            android:layout_toRightOf="@+id/securityIcon"
+            android:layout_toStartOf="@id/infoSecurityQuestionImageView"
+            android:gravity="left"
+            android:hint="@string/yes_sdk_enter_answer"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:textColorHint="@color/yes_sdk_gray" />
+
+        <!--    <Button
+                android:id="@+id/submitUpdateButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/avg_margin"
+                android:background="?colorPrimary"
+                android:gravity="center"
+                android:padding="@dimen/avg_margin"
+                android:text="@string/yes_sdk_proceed"
+                android:textColor="@color/yes_sdk_white"
+                android:visibility="visible" />-->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/reVerifyNoteLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/poweredByLayout"
+        android:layout_margin="@dimen/large_space"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/reVerifyNoteTitle"
+            style="@style/yes_sdk_whiteMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/large_space"
+            android:text="@string/yes_sdk_notes" />
+
+        <TextView
+            android:id="@+id/reVerifyNoteOneTextView"
+            style="@style/yes_sdk_whiteSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yes_sdk_answer_security_question" />
+
+        <TextView
+            android:id="@+id/reVerifyNoteTwoTextView"
+            style="@style/yes_sdk_whiteSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large_space"
+            android:text="@string/yes_sdk_sms_cost"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/newRegistrationTextView"
+            style="@style/yes_sdk_whiteSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large_space"
+            android:text="@string/yes_sdk_new_registration" />
+
+        <TextView
+            android:id="@+id/newRegisterButton"
+            style="@style/yes_sdk_blueMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/extra_large_space"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/yes_sdk_registration" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/poweredByLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/submitUpdateImageView"
+        android:gravity="center">
+
+        <TextView
+            style="@style/yes_sdk_whiteSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes_sdk_powered_by" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/yes_sdk_yes_ic_powered_by" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submitUpdateImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="?colorPrimary"
+        android:clickable="true"
+        android:text="@string/yes_sdk_proceed"
+        android:textColor="@color/yes_sdk_white" />
+</RelativeLayout><!--
+
+<RelativeLayout
+android:id="@+id/contentRelativeLayout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_alignParentLeft="true"
+android:layout_alignParentStart="true"
+android:layout_alignParentTop="true"
+android:orientation="vertical"
+android:visibility="visible">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/poweredByLyout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/skipTextView"
+            style="@style/yes_sdk_blueSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="@dimen/large_space"
+            android:text="@string/yes_sdk_skip"
+            android:textColor="#999999"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:id="@+id/headerLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/extra_large_space"
+            android:background="@null"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/headerTextView"
+                style="@style/yes_sdk_whiteMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="left"
+                android:textSize="25dp"
+                android:text="@string/yes_sdk_verify_heading"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/yes_sdk_verify_desc"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/simSelectionRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/selectTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/yes_sdk_select_heading"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/simLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/notesLayout"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/primarySimLinearLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@null"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/primaryTextView_"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/yes_sdk_sim1"
+                        android:textColor="@color/yes_sdk_black" />
+
+                    <ImageView
+                        android:id="@+id/primaryImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        app:srcCompat="@drawable/yes_sdk_ic_sim_selected" />
+
+                    <TextView
+                        android:id="@+id/primaryProviderTextView"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:ellipsize="end"
+                        android:lines="1"
+                        android:textAlignment="center"
+                        android:textColor="@color/yes_sdk_black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/dividerView"
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="#D9D9D9"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/secondarySimLinearLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@null"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/simTwoTextView_"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/yes_sdk_sim2"
+                        android:textColor="@color/yes_sdk_black" />
+
+                    <ImageView
+                        android:id="@+id/simTwoImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        app:srcCompat="@drawable/yes_sdk_ic_sim_normal" />
+
+                    <TextView
+                        android:id="@+id/simTwoProviderTextView"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:ellipsize="end"
+                        android:lines="1"
+                        android:textAlignment="center"
+                        android:textColor="@color/yes_sdk_black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/notesLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/extra_large_space"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/noteHeaderTextView"
+                    style="@style/yes_sdk_whiteMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yes_sdk_notes"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/noteOneTextView"
+                    style="@style/yes_sdk_titleTextStyleWhiteSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/large_space"
+                    android:layout_marginTop="@dimen/large_space"
+                    android:gravity="left"
+                    android:text="@string/yes_sdk_sms_cost" />
+
+
+                <TextView
+                    android:id="@+id/noteTwoTextView"
+                    style="@style/yes_sdk_titleTextStyleWhiteSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/yes_sdk_smsText_lowerdevice"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/termsConditionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/simLinearLayout"
+                android:layout_marginLeft="@dimen/extra_large_space"
+                android:layout_marginTop="25dp"
+                android:gravity="left"
+                android:text="@string/yes_sdk_tnc"
+                android:textColor="#949394"
+                android:textAlignment="inherit"
+                android:textSize="14dp"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+
+<TextView
+    android:id="@+id/otherAppButton"
+    style="@style/yes_sdk_blueSmall"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/poweredByLyout"
+    android:layout_centerInParent="true"
+    android:text="@string/yes_sdk_otherapp"
+    android:textAlignment="center"
+    android:visibility="gone"
+    />
+<LinearLayout
+    android:id="@+id/poweredByLyout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/submitImageView"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/poweredByTextView"
+        style="@style/yes_sdk_whiteSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yes_sdk_powered_by" />
+
+    <ImageView
+        android:id="@+id/headerImageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/yes_sdk_yes_ic_powered_by" />
+</LinearLayout>
+
+<Button
+    android:id="@+id/submitImageView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:background="?colorPrimary"
+    android:clickable="true"
+    android:text="@string/yes_sdk_proceed"
+    android:textColor="@color/yes_sdk_white" />
+</RelativeLayout>-->

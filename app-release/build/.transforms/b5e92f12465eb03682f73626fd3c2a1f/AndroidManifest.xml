@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yesbank"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- To read OTP -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application android:name="com.yesbank.common.MyApplication" >
+        <activity
+            android:name="com.yesbank.modules.accounts.addvpa.RegisterVPAActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.setmpin.SetMpinBankActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.accounts.addvpa.SuccessVpaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme" />
+        <activity
+            android:name="com.yesbank.modules.accounts.management.AccountManagementActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.initial.verify.VerifyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.accounts.accountlist.SubmitRegistrationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.addaccount.accountlist.SubmitAccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.initial.appselection.TransactionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.addaccount.AddAccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.accounts.selection.AccountSelectionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.deregister.DeRegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.collect.approval.CollectApprovalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.checkvpa.PayUsingOtherAppActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.register.RegistrationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.RaiseDisputeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.TransactionStatus"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.collect.request.CollectRequestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.api.BankList"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.SecurityQuestion"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.CheckVirtualAddress"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.PayActivity"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.RegistrationAccountList"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.SubmitRegisterAccount"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.SetMpin"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.GetDisputeList"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.utils.NPCILib"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.CheckDevice"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.ChangeMpin"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.CollectInbox"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.SubmitAccount"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.RemoveAccount"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.DeregisterProfile"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.UpdateDevice"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.CollectApprove"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.SecretDetails"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.RaiseDispute"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.BalanceEnquiry"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.modules.balanceenquiry.BalanceEnquiryActivity"
+            android:theme="@style/SDKTheme" />
+        <activity
+            android:name="com.yesbank.modules.changempin.ChangeMpinActivity"
+            android:theme="@style/SDKTheme" />
+        <activity android:name="com.yesbank.modules.IntentHandlerActivity" />
+    </application>
+
+</manifest>

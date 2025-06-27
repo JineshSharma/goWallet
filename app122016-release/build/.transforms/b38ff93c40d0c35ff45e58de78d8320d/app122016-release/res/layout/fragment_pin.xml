@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_inner_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:gravity="center_horizontal"
+    android:divider="@drawable/fragment_transparent_divider"
+    android:showDividers="middle"
+    android:orientation="vertical" >
+
+</LinearLayout>

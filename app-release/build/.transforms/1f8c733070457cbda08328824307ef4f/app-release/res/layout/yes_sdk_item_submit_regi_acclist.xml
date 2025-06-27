@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemLayoutAccounts"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yes_sdk_rectangle_gray"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/medium_space">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bankLogoImageView"
+                android:layout_width="@dimen/bank_img_hw"
+                android:layout_height="@dimen/bank_img_hw"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/yes_sdk_ic_bank" />
+
+
+            <TextView
+                android:id="@+id/accountTypeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/yes_sdk_rectangle_black_stroke"
+                android:paddingLeft="@dimen/medium_space"
+                android:paddingRight="@dimen/medium_space"
+                android:text="Savings"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bankNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Axis Bank"
+                android:textAllCaps="true"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/accountNumberTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium_space"
+                android:text="********6622"
+                android:textColor="@android:color/background_dark"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/ifscNumberTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IFSC :"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/upiPinLengthTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPI PIN LENGTH : 4"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/accountRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:visibility="visible"
+            app:srcCompat="@drawable/yes_sdk_ic_circle" />
+        <!-- <ImageView
+             android:id="@+id/bankLogoImageView"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginRight="@dimen/medium_space"
+             android:layout_alignParentLeft="true"
+             android:padding="@dimen/medium_space"
+             android:src="@drawable/yes_sdk_ic_axis" />
+
+         <TextView
+             android:id="@+id/bankNameTextView"
+             style="@style/yes_sdk_textStyleSmallBlack"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toRightOf="@id/bankLogoImageView"
+             android:text="Axis Bank"
+             android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/accountNumberTextView"
+             android:layout_width="wrap_content"
+             style="@style/yes_sdk_textStyleInActiveMedium"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/bankNameTextView"
+             android:layout_marginTop="@dimen/medium_space"
+             android:layout_toRightOf="@id/bankLogoImageView"
+             android:text="********6622" />
+
+         <TextView
+             android:id="@+id/ifscNumberTextView"
+             android:textSize="12sp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="IFSC :"
+             android:layout_below="@+id/accountNumberTextView" />
+
+         <ImageView
+             android:id="@+id/accountRadio"
+             android:layout_width="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_height="wrap_content"
+             android:src="@drawable/yes_sdk_ic_circle"
+             android:visibility="visible"
+             android:enabled="false"/>
+
+         <TextView
+             android:layout_toLeftOf="@id/accountRadio"
+             android:id="@+id/accountTypeTextView"
+             style="@style/yes_sdk_textStyleSmallBlack"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/yes_sdk_rectangle_black_stroke"
+             android:paddingLeft="@dimen/medium_space"
+             android:paddingRight="@dimen/medium_space"
+             android:text="Savings" />
+
+         <TextView
+             android:id="@+id/upiPinLengthTextView"
+             android:textSize="12sp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignBaseline="@+id/ifscNumberTextView"
+             android:layout_alignParentRight="true"
+             android:layout_below="@id/bankLogoImageView"
+             android:text="UPI PIN LENGTH : 4" />
+
+         <View
+             android:layout_margin="@dimen/medium_space"
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:layout_below="@+id/upiPinLengthTextView"
+             android:background="@color/yes_sdk_light_gray"/>
+         -->
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/yes_sdk_light_gray" />
+</LinearLayout>

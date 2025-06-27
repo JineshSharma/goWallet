@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.goprocessing.gowallet"
+    android:versionCode="231"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="29" >
+    </uses-sdk>
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature android:name="android.hardware.camera2" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions required for GCM -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <permission
+        android:name="com.goprocessing.gowallet.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.goprocessing.gowallet.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="com.goprocessing.GoWalletApplication"
+        android:allowBackup="true"
+        android:configChanges="layoutDirection|locale"
+        android:debuggable="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.truecaller.android.sdk.PartnerKey"
+            android:value="@string/partner_key" />
+
+        <activity
+            android:name="com.goprocessing.gowallet.Splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.DataFragmentFromGoTab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.BelowPopUp"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.goprocessing.userGoPay.GoPayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goprocessing.userGoPay.GoPaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goprocessing.userGoPay.MerchantCheckoutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goprocessing.eKYC.EKYCActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.ConfirmationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.TransactionDetails"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.travel.SourceDestinationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.goprocessing.gowallet.RegisterDOB"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.RegisterGender"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.RegisterTandC"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.expenseManager.ViewAll"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.ManageContactActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.FAQActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.LanguageSelectionActivity"
+            android:configChanges="layoutDirection|locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.merchant.MerchantDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.expenseManager.GrantPermision"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.expenseManager.Overview"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.DialogConfirmation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.FilterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.SelectBranch"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.SelectDistrict"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.SelectState"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.ToAccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.goApi.DateTimeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.CashBack"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.UPI"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.goprocessing.gowallet.VerifyOTP"
+            android:screenOrientation="portrait"
+            android:theme="@style/TransparentVerify" />
+        <activity
+            android:name="com.goprocessing.gowallet.ForgotPin"
+            android:screenOrientation="portrait"
+            android:theme="@style/TransparentVerify" />
+        <activity
+            android:name="com.goprocessing.gowallet.VerifyPin"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.ManuallyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.NetBanking"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.CardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.goprocessing.gowallet.SetPin"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.ConfirmPin"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.CVVDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.SavedCard"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.goprocessing.gowallet.merchant.StoreLocator"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.AskConfirmationActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.DoneSuccessfully"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.merchant.PayAtShopActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.recharge.BrowsePlansActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.recharge.ConfirmationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.recharge.PromoCodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.goprocessing.gowallet.recharge.SearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.merchant.CashBackDetail"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.recharge.SelectCircleActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.goprocessing.gowallet.merchant.SelectCategory"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.goprocessing.gowallet.recharge.SelectOperatorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.goprocessing.gowallet.RegisterNameActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.recharge.CommonContactActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.merchant.ShareOTP"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.setting.LogSelectionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeDark" >
+        </activity>
+        <activity
+            android:name="com.goprocessing.goSDKHandler.GoSdkHandler"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" >
+            <intent-filter>
+                <action android:name="com.goprocessing.gowallet.EZESERV" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.goprocessing.gowallet.lendingandborrow.HistoryDetailPage"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.PassbookActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.card.GoWalletCard"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.card.Statement"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.splitandpools.SplitContactActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.lendingandborrow.DialogAwaited"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.goprocessing.gowallet.lendingandborrow.HistoryPageActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.PendingTransactionActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.splitandpools.SplitAndPoolActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.lendingandborrow.LendAndBorrow"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.splitandpools.SplitActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.splitandpools.CameraGalleryChooserActivity"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.goprocessing.gowallet.splitandpools.ContactGroupActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.lendingandborrow.LendingDetailPage"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.splitandpools.PoolActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.setting.ServiceSelectionActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.recharge.RechargeActivity"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.goprocessing.goHandler.GoHandler"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.TransferActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.billPayment.BillPayment"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.goprocessing.gowallet.travel.FilterActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.travel.OperatorList"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.travel.BoardingPointList"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.travel.DroppingPointList"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.travel.CustomisedCalendarActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.OTPSend"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.SocialActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.SimpleScannerActivity"
+            android:label="Go Wallet Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppOverlayTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.ManageVPAs"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.DialogEditRemove"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.AddBankAccountConatct"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.AddBankAccount"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.transfer.AddVPAContact"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.merchant.OfferActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.giftCard.GiftCardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.giftCard.DetailPreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.giftCard.PreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.giftCard.SendGiftCard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.giftCard.PersonalizationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.giftCard.SelectImage"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.giftCard.RechargePaymentScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.giftCard.GiftCardDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.goprocessing.gowallet.air.AirActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.air.AirFilterActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.air.AirListActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.air.AirOperatorList"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.air.AirBoardingPointList"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.air.AirDroppingPointList"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.travel.BusActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.travel.BusListActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.travel.BusSeatAllotment"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.goprocessing.gowallet.contactIcon.ViewingActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/com.goprocessing.gowallet.profile.recharge" />
+                <data android:mimeType="vnd.android.cursor.item/com.goprocessing.gowallet.profile.send" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.goprocessing.gowallet.MapsActivity"
+            android:label="@string/map" >
+        </activity>
+
+        <!-- Services -->
+        <service android:name="com.goprocessing.gowallet.contactIcon.AuthenticationService" >
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" />
+        </service>
+        <service
+            android:name="com.goprocessing.gowallet.contactIcon.SyncService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapter" />
+            <meta-data
+                android:name="android.provider.CONTACTS_STRUCTURE"
+                android:resource="@xml/contacts" />
+        </service>
+
+        <!-- Reciever -->
+        <!--
+        <receiver android:name="com.goprocessing.gowallet.utils.SmsReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        -->
+
+
+        <!-- UPI Part -->
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UPIMain"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" >
+        </activity>
+        <activity
+            android:name="com.goprocessing.goUPI.UPI1.UPI1Main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fss.idfc.idfcupicl"
+            android:screenOrientation="portrait" >
+            <!--
+            <intent-filter>
+                <action android:name="com.fss.idfc.idfcupicl" />
+                &lt;!&ndash; comment when exporting AAR below two lines &ndash;&gt;
+                &lt;!&ndash; <action android:name="android.intent.action.MAIN" />
+                 <category android:name="android.intent.category.LAUNCHER" />&ndash;&gt;
+
+            </intent-filter>
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.goprocessing.goUPI.GPLMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" />
+        <activity android:name="com.goprocessing.goUPI.Go.GoAction" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.Services.SendMoney"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.Services.BalanceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.Services.ConfirmApproval"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.PinFour"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.SetAccountPreference"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.Services.AdvancedPinSix"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.Services.AdvancePinFour"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.PinSix"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_UserRegister"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UIResultDialog"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_Deregister"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_CollectMoney"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_PendingApproval"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_RegistrationConfirm"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_GetVPA"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_SendMoney"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_BankList"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_SelectedBankAccountList"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_AccountManagement"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_CreateVirtualAddress"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_SetUPI_Pin"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_BlockVPAList"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.Services.SetUPIPin"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.Services.ChangePin"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_ChangePin"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_ChangePinFour"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_ChangePinSix"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_SetUPI_PinFour"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.goprocessing.goUPI.UPI.UI.UI_SetUPI_PinSix"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.uber.sdk.android.rides.RideRequestActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.uber.sdk.android.core.auth.LoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fss.idfc.ReSend"
+            android:exported="false" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="25.4.0" />
+
+        <activity
+            android:name="org.npci.upi.security.pinactivitycomponent.GetCredential"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/ActivityTheme" >
+            <intent-filter>
+                <action android:name="org.npci.upi.security.pinactivitycomponent.GetCredential" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="org.npci.upi.security.pinactivitycomponent.CLRemoteServiceImpl"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="org.npci.upi.security.services.CLRemoteService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.yesbank.modules.accounts.addvpa.RegisterVPAActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.setmpin.SetMpinBankActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.accounts.addvpa.SuccessVpaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme" />
+        <activity
+            android:name="com.yesbank.modules.accounts.management.AccountManagementActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.initial.verify.VerifyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.accounts.accountlist.SubmitRegistrationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.addaccount.accountlist.SubmitAccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.initial.appselection.TransactionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.addaccount.AddAccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.accounts.selection.AccountSelectionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.deregister.DeRegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.collect.approval.CollectApprovalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.checkvpa.PayUsingOtherAppActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.register.RegistrationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.RaiseDisputeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.TransactionStatus"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.modules.collect.request.CollectRequestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SDKTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.yesbank.api.BankList"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.SecurityQuestion"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.CheckVirtualAddress"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.PayActivity"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.RegistrationAccountList"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.SubmitRegisterAccount"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.SetMpin"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.GetDisputeList"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.utils.NPCILib"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.CheckDevice"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.ChangeMpin"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.CollectInbox"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.SubmitAccount"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.RemoveAccount"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.DeregisterProfile"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.UpdateDevice"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.CollectApprove"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.SecretDetails"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.RaiseDispute"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.api.BalanceEnquiry"
+            android:theme="@style/SDKTheme.Transparent" />
+        <activity
+            android:name="com.yesbank.modules.balanceenquiry.BalanceEnquiryActivity"
+            android:theme="@style/SDKTheme" />
+        <activity
+            android:name="com.yesbank.modules.changempin.ChangeMpinActivity"
+            android:theme="@style/SDKTheme" />
+        <activity android:name="com.yesbank.modules.IntentHandlerActivity" />
+        <activity
+            android:name="com.goprocessing.gopay.GOActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <service android:name="com.goprocessing.gopay.goService.SnoozeService" />
+
+        <receiver android:name="io.chirp.sdk.analytics.AnalyticsBroadcastReceiver" >
+        </receiver>
+
+        <service
+            android:name="io.chirp.sdk.analytics.AnalyticsService"
+            android:label="chirp_helper"
+            android:process=":chirp_helper" >
+        </service> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+        <activity
+            android:name="com.google.android.gms.appinvite.PreviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppInvite.Preview" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+        <service
+            android:name="com.google.firebase.crash.internal.service.FirebaseCrashReceiverService"
+            android:process=":background_crash" />
+        <service
+            android:name="com.google.firebase.crash.internal.service.FirebaseCrashSenderService"
+            android:process=":background_crash" />
+        <service
+            android:name="com.google.android.gms.tagmanager.TagManagerService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+            <intent-filter>
+                <data android:scheme="tagmanager.c.com.goprocessing.gowallet" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+ FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.goprocessing.gowallet" />
+            </intent-filter>
+        </receiver>
+        <!--
+ Internal (not exported) receiver used by the app to start its own exported services
+             without risk of being spoofed.
+        -->
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+        <!--
+ FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.goprocessing.gowallet.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

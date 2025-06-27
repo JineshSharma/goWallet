@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:app-release:unspecified@jar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app-release/build/.transforms/293147a97f1e741c20bc8ef96372fd10/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/app-release/build/.transforms/293147a97f1e741c20bc8ef96372fd10/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app-release/build/.transforms/293147a97f1e741c20bc8ef96372fd10/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="com_truecaller_truebutton_background">#0091ea</color>
+    <declare-styleable name="com_truecaller_truebutton"><attr format="enum" name="truebutton_text">
+            <enum name="autoFill" value="0"/>
+            <enum name="autoFillShort" value="1"/>
+            <enum name="signIn" value="2"/>
+            <enum name="signInShort" value="3"/>
+            <enum name="signUp" value="4"/>
+            <enum name="signUpShort" value="5"/>
+            <enum name="register" value="6"/>
+            <enum name="registerShort" value="7"/>
+            <enum name="cont" value="8"/>
+            <enum name="contShort" value="9"/>
+        </attr></declare-styleable>
+    <dimen name="com_truecaller_truebutton_elevation">2dp</dimen>
+    <dimen name="com_truecaller_truebutton_height">48dp</dimen>
+    <dimen name="com_truecaller_truebutton_margin">4dp</dimen>
+    <dimen name="com_truecaller_truebutton_padding">8dp</dimen>
+    <dimen name="com_truecaller_truebutton_width">328dp</dimen>
+    <dimen name="com_truecaller_truebutton_width_short">164dp</dimen>
+    <item name="com.truecaller.android.sdk.truebutton" type="id"/>
+    <string name="com_truecaller_truebutton_text_auto_fill">Auto fill with Truecaller</string>
+    <string name="com_truecaller_truebutton_text_auto_fill_short">Auto fill</string>
+    <string name="com_truecaller_truebutton_text_continue">Continue with Truecaller</string>
+    <string name="com_truecaller_truebutton_text_continue_short">Continue</string>
+    <string name="com_truecaller_truebutton_text_register">Register with Truecaller</string>
+    <string name="com_truecaller_truebutton_text_register_short">Register</string>
+    <string name="com_truecaller_truebutton_text_sign_in">Sign in with Truecaller</string>
+    <string name="com_truecaller_truebutton_text_sign_in_short">Sign in</string>
+    <string name="com_truecaller_truebutton_text_sign_up">Sign up with Truecaller</string>
+    <string name="com_truecaller_truebutton_text_sign_up_short">Sign up</string>
+    <string name="tc_logo">TC Logo</string>
+    <style name="com_truecaller_truebutton_text_style" parent="@android:style/TextAppearance.Inverse">
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:padding">@dimen/com_truecaller_truebutton_padding</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

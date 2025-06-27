@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:truesdk-0.6:unspecified@jar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/truesdk-0.6/build/.transforms/3fa70e58a8904fc7126828852a997885/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/truesdk-0.6/build/.transforms/3fa70e58a8904fc7126828852a997885/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/truesdk-0.6/build/.transforms/3fa70e58a8904fc7126828852a997885/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/truesdk-0.6/build/.transforms/3fa70e58a8904fc7126828852a997885/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

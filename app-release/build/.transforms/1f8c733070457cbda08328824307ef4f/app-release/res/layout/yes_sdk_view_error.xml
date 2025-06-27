@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/errorContentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/yes_sdk_dark_to_light_bg"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/large_space" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/errorIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yes_sdk_ic_error" />
+
+            <TextView
+                android:id="@+id/errorMessageTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/large_space"
+                android:gravity="center"
+                android:padding="@dimen/large_space" />
+
+            <TextView
+                android:id="@+id/errorMessageTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/large_space"
+                android:gravity="center"
+                android:padding="@dimen/large_space" />
+
+            <TextView
+                android:id="@+id/tryAgainTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/avg_margin"
+                android:layout_marginTop="@dimen/large_space"
+                android:background="@drawable/yes_sdk_rectangle"
+                android:paddingLeft="@dimen/extra_large_space"
+                android:paddingRight="@dimen/extra_large_space"
+                android:text="@string/yes_sdk_try_again" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/unReliableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/yes_sdk_dark_to_light_bg"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/large_space" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/yes_sdk_ic_rooted_device" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/large_space"
+                android:gravity="center"
+                android:padding="@dimen/large_space"
+                android:text="@string/yes_sdk_un_auth_connection" />
+
+            <TextView
+                android:id="@+id/unAuthMessageTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/large_space"
+                android:gravity="center"
+                android:padding="@dimen/large_space"
+                android:text="@string/yes_sdk_un_auth_connection_details" />
+
+            <TextView
+                android:id="@+id/closeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/avg_margin"
+                android:layout_marginTop="@dimen/large_space"
+                android:background="@drawable/yes_sdk_rectangle"
+                android:paddingLeft="@dimen/extra_large_space"
+                android:paddingRight="@dimen/extra_large_space"
+                android:text="@string/yes_sdk_close" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/noConnectionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/yes_sdk_dark_to_light_bg"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/large_space" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/noConnectionIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/large_space"
+                app:srcCompat="@drawable/yes_sdk_ic_no_connection" />
+
+            <TextView
+                android:id="@+id/connectionMessageTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/medium_space"
+                android:text="@string/yes_sdk_no_internet_connection" />
+
+            <TextView
+                android:id="@+id/connectionMessageSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/large_space"
+                android:layout_marginTop="@dimen/large_space"
+                android:gravity="center"
+                android:text="@string/yes_sdk_please_check_network" />
+
+            <TextView
+                android:id="@+id/networkRetryTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/extra_large_space"
+                android:background="@drawable/yes_sdk_button_selector"
+                android:paddingBottom="@dimen/medium_space"
+                android:paddingLeft="@dimen/extra_large_space"
+                android:paddingRight="@dimen/extra_large_space"
+                android:paddingTop="@dimen/medium_space"
+                android:text="@string/yes_sdk_sign_in" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rootedDeviceLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/yes_sdk_dark_to_light_bg"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/large_space" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/rootedIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/large_space"
+                app:srcCompat="@drawable/yes_sdk_ic_rooted_device" />
+
+            <TextView
+                android:id="@+id/rootedMessageTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/large_space"
+                android:layout_marginTop="@dimen/large_space"
+                android:gravity="center"
+                android:text="@string/yes_sdk_rooted_device_title" />
+
+            <TextView
+                android:id="@+id/rootedMessageSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/large_space"
+                android:layout_marginTop="@dimen/large_space"
+                android:gravity="center"
+                android:text="@string/yes_sdk_rooted_device" />
+
+            <TextView
+                android:id="@+id/rootedKillTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/extra_large_space"
+                android:background="@drawable/yes_sdk_button_selector"
+                android:paddingBottom="@dimen/medium_space"
+                android:paddingLeft="@dimen/extra_large_space"
+                android:paddingRight="@dimen/extra_large_space"
+                android:paddingTop="@dimen/medium_space"
+                android:text="@string/yes_sdk_sign_in" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sessionExpiredLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/yes_sdk_dark_to_light_bg"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/large_space" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/large_space"
+                app:srcCompat="@drawable/yes_sdk_ic_sad_smiley" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/large_space"
+                android:layout_marginTop="@dimen/large_space"
+                android:gravity="center"
+                android:text="@string/yes_sdk_session_expired" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/large_space"
+                android:layout_marginTop="@dimen/large_space"
+                android:gravity="center"
+                android:text="@string/yes_sdk_session_expired_details" />
+
+            <TextView
+                android:id="@+id/sessionExpiredTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/extra_large_space"
+                android:background="@drawable/yes_sdk_button_selector"
+                android:paddingBottom="@dimen/medium_space"
+                android:paddingLeft="@dimen/extra_large_space"
+                android:paddingRight="@dimen/extra_large_space"
+                android:paddingTop="@dimen/medium_space"
+                android:text="@string/yes_sdk_sign_in" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

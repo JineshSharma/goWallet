@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:custom_browser:unspecified@jar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/custom_browser/build/.transforms/25848fd48323e87898dcc0f27310288e/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/custom_browser/build/.transforms/25848fd48323e87898dcc0f27310288e/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/custom_browser/build/.transforms/25848fd48323e87898dcc0f27310288e/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/custom_browser/build/.transforms/25848fd48323e87898dcc0f27310288e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

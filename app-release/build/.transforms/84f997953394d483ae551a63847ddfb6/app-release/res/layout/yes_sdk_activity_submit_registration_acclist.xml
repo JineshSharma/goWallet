@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yes_sdk_light_gray">
+
+    <TextView
+        android:id="@+id/foundAccountsTitleTextView"
+        style="@style/yes_sdk_whiteSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/large_space"
+        android:gravity="center"
+        android:text="@string/yes_sdk_found_accounts_title" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/accountsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/securityLayout"
+        android:layout_below="@id/foundAccountsTitleTextView"
+        android:layout_marginTop="@dimen/medium_space" />
+
+    <LinearLayout
+        android:id="@+id/securityLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/poweredByLyout"
+        android:layout_marginBottom="@dimen/extra_large_space"
+        android:layout_marginLeft="@dimen/medium_space"
+        android:layout_marginRight="@dimen/medium_space"
+        android:layout_marginTop="@dimen/medium_space"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/securityQuestionTitleTextView"
+            style="@style/yes_sdk_whiteSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium_space"
+            android:gravity="center"
+            android:text="@string/yes_sdk_security_questions_title" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yes_sdk_white"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/medium_space"
+            android:paddingTop="@dimen/medium_space">
+
+            <Spinner
+                android:id="@+id/secQuestionSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/yes_sdk_inActive" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/secQuestionSpinner"
+                android:background="@color/yes_sdk_gray" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/appSecurityAnswerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yes_sdk_white"
+            android:padding="@dimen/small_space">
+
+            <EditText
+                android:id="@+id/securityAnswerEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@color/yes_sdk_transparent"
+                android:digits="@string/yes_sdk_valid_chars_security_answer"
+                android:hint="@string/yes_sdk_provide_your_answer"
+                android:inputType="text"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColorHint="@color/yes_sdk_inActive" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/poweredByLyout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/proceedButton"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/poweredByTextView"
+            style="@style/yes_sdk_whiteSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes_sdk_powered_by" />
+
+        <ImageView
+            android:id="@+id/headerImageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/yes_sdk_yes_ic_powered_by" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/proceedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?colorPrimary"
+        android:text="@string/yes_sdk_proceed"
+        android:textColor="@color/yes_sdk_white" />
+
+    <include
+        layout="@layout/yes_sdk_view_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="aadharNo">ಆಧಾರ್ ಇಲ್ಲ</string>
+    <string name="aadharNumber">ಆಧಾರ್ ಸಂಖ್ಯೆ</string>
+    <string name="abcd1four52three6">abcd145236</string>
+    <string name="ac">ಎಸಿ</string>
+    <string name="acSleeper">ಎಸಿ-ಸ್ಲೀಪರ್</string>
+    <string name="accept">ಒಪ್ಪಿಕೊಳ್ಳಿ</string>
+    <string name="accountALREADYPRESENT">ಖಾತೆ ಪ್ರಸ್ತುತ</string>
+    <string name="accountAddedSuccessfully">ಖಾತೆಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸೇರಿಸಲಾಗಿದೆ</string>
+    <string name="accountAlreadyAdded">ಖಾತೆ ಈಗಾಗಲೇ ಸೇರಿಸಲಾಗಿದೆ</string>
+    <string name="accountAlreadyRegistered">ಖಾತೆ ಈಗಾಗಲೇ ನೋಂದಾಯಿಸಲಾಗಿದೆ</string>
+    <string name="accountBlockedSuccessfully">ಖಾತೆಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ</string>
+    <string name="accountDoesNotExistBeneficiary">ಖಾತೆಯು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ (ಫಲಾನುಭವಿ)</string>
+    <string name="accountDoesNotExistRemitter">ಖಾತೆ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ (ರಿಮಿಟರ್)</string>
+    <string name="accountIFSC">ಖಾತೆ / IFSC</string>
+    <string name="accountManagementUPI">ಖಾತೆ ನಿರ್ವಹಣೆ UPI</string>
+    <string name="accountName">ಖಾತೆಯ ಹೆಸರು</string>
+    <string name="accountNotFound">ಖಾತೆ ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="accountNumber">ಖಾತೆ ಸಂಖ್ಯೆ</string>
+    <string name="accountNumberIsNotFoundForThisMobileNumber">ಈ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯ ಖಾತೆ ಸಂಖ್ಯೆ ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="accountPreferenceNotSetForThisBeneficiary">ಈ ಫಲಾನುಭವಿಗೆ ಖಾತೆಯ ಆದ್ಯತೆ ಹೊಂದಿಸಲಾಗಿಲ್ಲ</string>
+    <string name="accountStatusIsEmpty">ಖಾತೆ ಸ್ಥಿತಿ ಖಾಲಿಯಾಗಿದೆ</string>
+    <string name="activate">ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="activateMyGOWalletCard">ನನ್ನ ಗೋವಾಲೆಟ್ ಕಾರ್ಡ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="add">ಸೇರಿಸಿ</string>
+    <string name="addAMessage">ಸಂದೇಶವನ್ನು ಸೇರಿಸಿ</string>
+    <string name="addAccount">ಖಾತೆಯನ್ನು ಸೇರಿಸು</string>
+    <string name="addAccountProcessFailed">ಖಾತೆ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಸೇರಿಸಿ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="addBankAccount">ಬ್ಯಾಂಕ್ ಖಾತೆಯನ್ನು ಸೇರಿಸಿ</string>
+    <string name="addBeneficiary">ಫಲಾನುಭವಿಯನ್ನು ಸೇರಿಸಿ</string>
+    <string name="addItem">ಐಟಂ ಸೇರಿಸಿ</string>
+    <string name="addMoreFriend">ಹೆಚ್ಚಿನ ಸ್ನೇಹಿತರನ್ನು ಸೇರಿಸಿ</string>
+    <string name="addPassengers">ಪ್ರಯಾಣಿಕರನ್ನು ಸೇರಿಸಿ</string>
+    <string name="addVPAContact">VPA ಸಂಪರ್ಕವನ್ನು ಸೇರಿಸಿ</string>
+    <string name="addYourGangMembersToTheGroups">ನಿಮ್ಮ ಗ್ಯಾಂಗ್ ಸದಸ್ಯರನ್ನು ಗುಂಪುಗಳಿಗೆ ಸೇರಿಸಿ</string>
+    <string name="added">ಸೇರಿಸಲಾಗಿದೆ</string>
+    <string name="address">ವಿಳಾಸ</string>
+    <string name="adjustDate">ದಿನಾಂಕವನ್ನು ಹೊಂದಿಸಿ</string>
+    <string name="adult">ವಯಸ್ಕರ</string>
+    <string name="age">ವಯಸ್ಸು</string>
+    <string name="airBooking">ಏರ್ ಬುಕಿಂಗ್</string>
+    <string name="airOperator">ಏರ್ ಆಪರೇಟರ್</string>
+    <string name="allOperator">ಎಲ್ಲಾ ನಿರ್ವಾಹಕರು</string>
+    <string name="allRightAreReserved">ಎಲ್ಲ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ</string>
+    <string name="americanExpressEzeClick">ಅಮೆರಿಕನ್ ಎಕ್ಸ್ಪ್ರೆಸ್ / ಇಜ್ ಕ್ಲಿಕ್ ಮಾಡಿ</string>
+    <string name="amount">ಮೊತ್ತ</string>
+    <string name="analyzingServiceSMSS">ಸೇವೆ SMS ಗಳ ವಿಶ್ಲೇಷಣೆ</string>
+    <string name="anniversaryThemes">ವಾರ್ಷಿಕೋತ್ಸವದ ಥೀಮ್ಗಳು</string>
+    <string name="applicationExceptionOccured">ಅಪ್ಲಿಕೇಶನ್ ವಿನಾಯಿತಿ ಕಂಡುಬಂದಿದೆ</string>
+    <string name="applicationWillSendSMSFromYourMobileNumber">
+ಅಪ್ಲಿಕೇಶನ್ ನಿಮ್ಮ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯಿಂದ SMS ಕಳುಹಿಸುತ್ತದೆ
+</string>
+    <string name="apply">ಅನ್ವಯಿಸು</string>
+    <string name="applyFilter">ಫಿಲ್ಟರ್ ಅನ್ವಯಿಸಿ</string>
+    <string name="applyPromo">ಪ್ರಚಾರವನ್ನು ಅನ್ವಯಿಸಿ</string>
+    <string name="approved">ಅನುಮೋದಿಸಲಾಗಿದೆ</string>
+    <string name="apr">ಎಪ್ರಿಲ್</string>
+    <string name="areYouSureToCancelTheSplit">ನೀವು ವಿಭಜನೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ</string>
+    <string name="areYouSureWantToBlockVPA">ನೀವು ಖಚಿತವಾಗಿ VPA ನಿರ್ಬಂಧಿಸಲು ಬಯಸುವಿರಾ?</string>
+    <string name="areYouSureWantToDelete">ನೀವು ಖಚಿತವಾಗಿ ಅಳಿಸಲು ಬಯಸುವಿರಾ?</string>
+    <string name="areYouSureWantToDeregister">ನೀವು ಖಚಿತವಾಗಿ deregister ಮಾಡಲು ಬಯಸುವಿರಾ?</string>
+    <string name="areYouSureYouWantDeclineTheTransaction">ವ್ಯವಹಾರವನ್ನು ನಿರಾಕರಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?</string>
+    <string name="areYouSureYouWantToLogout">ನೀವು ಲಾಗ್ಔಟ್ ಮಾಡಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?</string>
+    <string name="arrivalTime">ಬರುವ ಹೊತ್ತು</string>
+    <string name="ask">ಕೇಳಿ</string>
+    <string name="askConfirmation">ದೃಢೀಕರಣ ಕೇಳಿ</string>
+    <string name="atmLimits">ಎಟಿಎಂ ಲಿಮಿಟ್ಸ್</string>
+    <string name="aug">ಆಗಸ್ಟ್</string>
+    <string name="automatic">ಸ್ವಯಂಚಾಲಿತ</string>
+    <string name="awaiting">ನಿರೀಕ್ಷಿಸುತ್ತಿದೆ</string>
+    <string name="balance">ಸಮತೋಲನ</string>
+    <string name="balanceSummary">ಬ್ಯಾಲೆನ್ಸ್ ಸಾರಾಂಶ</string>
+    <string name="banglore">ಬೆಂಗಳೂರು</string>
+    <string name="bankAccount">ಬ್ಯಾಂಕ್ ಖಾತೆ</string>
+    <string name="bankListNotFound">ಬ್ಯಾಂಕ್ ಪಟ್ಟಿ ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="bankName">ಬ್ಯಾಂಕ್ ಹೆಸರು</string>
+    <string name="barcode">ಬಾರ್ಕೋಡ್</string>
+    <string name="beneficiary">ಫಲಾನುಭವಿ</string>
+    <string name="beneficiaryAccountBlockedFrozen">ಫಲಾನುಭವಿ ಖಾತೆಯನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ / ಘನೀಕರಿಸಲಾಗಿದೆ</string>
+    <string name="beneficiaryCBSOffline">ಫಲಾನುಭವಿಯ ಸಿಬಿಎಸ್ ಆಫ್ಲೈನ್</string>
+    <string name="beneficiaryNotAvailable.">ಫಲಾನುಭವಿಯು ಲಭ್ಯವಿಲ್ಲ.</string>
+    <string name="beneficiaryVPA">ಫಲಾನುಭವಿಯ VPA</string>
+    <string name="bengali">ಬೆಂಗಾಲಿ</string>
+    <string name="bestWishesThemes">ಅತ್ಯುತ್ತಮ ಶುಭಾಶಯ ಥೀಮ್ಗಳು</string>
+    <string name="bhim">ಬಿಹೈಮ್</string>
+    <string name="billAmount">ಬಿಲ್ ಮೊತ್ತ</string>
+    <string name="billPayment">ಬಿಲ್ ಪಾವತಿ</string>
+    <string name="billpayment">ಬಿಲ್ಪೇಮೆಂಟ್</string>
+    <string name="birthdayThemes">ಜನ್ಮದಿನದ ಥೀಮ್ಗಳು</string>
+    <string name="blockedVPAS">ನಿರ್ಬಂಧಿಸಿದ VPA ಗಳು</string>
+    <string name="boardingPoint">ಬೋರ್ಡಿಂಗ್ ಪಾಯಿಂಟ್</string>
+    <string name="boi">BOI</string>
+    <string name="borrow">ಸಾಲ</string>
+    <string name="borrowing">ಎರವಲು</string>
+    <string name="broadband">ಬ್ರಾಡ್ಬ್ಯಾಂಡ್</string>
+    <string name="browseAll">ಎಲ್ಲಾ ಬ್ರೌಸ್ ಮಾಡಿ</string>
+    <string name="browsePlans">ಯೋಜನೆಗಳನ್ನು ಬ್ರೌಸ್ ಮಾಡಿ</string>
+    <string name="bus">ಬಸ್</string>
+    <string name="busBooking">ಬಸ್ ಬುಕಿಂಗ್</string>
+    <string name="busOperator">ಬಸ್ ಆಪರೇಟರ್</string>
+    <string name="businees">ಬ್ಯುಸಿನೆಸ್</string>
+    <string name="business">ವ್ಯಾಪಾರ</string>
+    <string name="buyForSelfInstantlyAddedToYourAccount">ನಿಮ್ಮ ಖಾತೆಗೆ ತಕ್ಷಣವೇ ಸ್ವಯಂಗಾಗಿ ಖರೀದಿಸಿ</string>
+    <string name="buyGiftCardFor">ಗಾಗಿ ಗಿಫ್ಟ್ ಕಾರ್ಡ್ ಖರೀದಿಸಿ</string>
+    <string name="buyNow">ಈಗ ಖರೀದಿಸು</string>
+    <string name="cable">ಕೇಬಲ್</string>
+    <string name="call">ಕರೆ</string>
+    <string name="camera">ಕ್ಯಾಮೆರಾ</string>
+    <string name="canNotExceedLimitOf5">5 ಮಿತಿಯನ್ನು ಮೀರಬಾರದು</string>
+    <string name="cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="cancelled">ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="cancelledByUser">ಬಳಕೆದಾರರಿಂದ ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="card">ಕಾರ್ಡ್</string>
+    <string name="cardHolderName">ಕಾರ್ಡ್ ಹೊಂದಿರುವವರ ಹೆಸರು</string>
+    <string name="cardNowCanBeUsedForTransaction">(ಕಾರ್ಡ್ ಅನ್ನು ಈಗ ವ್ಯವಹಾರಕ್ಕಾಗಿ ಬಳಸಬಹುದು)</string>
+    <string name="cardNumber">ಕಾರ್ಡ್ ಸಂಖ್ಯೆ</string>
+    <string name="cardTurnedOn">ಕಾರ್ಡ್ ಆನ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="cashDeposit">ನಗದು ಠೇವಣಿ</string>
+    <string name="cashback">ಕ್ಯಾಶ್ಬ್ಯಾಕ್</string>
+    <string name="cashbackDetail">ಕ್ಯಾಶ್ಬ್ಯಾಕ್ ವಿವರ</string>
+    <string name="category">ವರ್ಗ</string>
+    <string name="cb">ಸಿಬಿ</string>
+    <string name="changeBudget">ಬಜೆಟ್ ಬದಲಿಸಿ</string>
+    <string name="changePin">ಪಿನ್ ಬದಲಿಸಿ</string>
+    <string name="channelDetailsNotFound.">ಚಾನಲ್ ವಿವರಗಳು ಕಂಡುಬಂದಿಲ್ಲ.</string>
+    <string name="charges">ಶುಲ್ಕಗಳು</string>
+    <string name="check">ಪರಿಶೀಲಿಸಿ</string>
+    <string name="chennai">ಚೆನ್ನೈ</string>
+    <string name="children">ಮಕ್ಕಳು</string>
+    <string name="childrenCanNotBeMoreThanAdults">ಮಕ್ಕಳು ವಯಸ್ಕರಿಗಿಂತ ಹೆಚ್ಚಿನವರಾಗಿರಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
+    <string name="chooseFromTheOfferBelow">ಕೆಳಗಿನ ಕೊಡುಗೆಯನ್ನು ಆರಿಸಿಕೊಳ್ಳಿ</string>
+    <string name="chooseLanguage">ಭಾಷೆಯನ್ನು ಆರಿಸಿ</string>
+    <string name="chooseWhereToPayFromBankAccount">ಬ್ಯಾಂಕ್ ಖಾತೆಯಿಂದ ಎಲ್ಲಿ ಪಾವತಿಸಲು ಆರಿಸಿಕೊಳ್ಳಿ?</string>
+    <string name="chooseYourDate">ನಿಮ್ಮ ದಿನಾಂಕವನ್ನು ಆರಿಸಿ</string>
+    <string name="cityCanNotBeSame">ನಗರ ಒಂದೇ ಆಗಿರಬಾರದು</string>
+    <string name="classWord">ವರ್ಗ</string>
+    <string name="close">ಮುಚ್ಚಿ</string>
+    <string name="closeDrawer">ಡ್ರಾಯರ್ ಮುಚ್ಚಿ</string>
+    <string name="closedAccount">ಮುಚ್ಚಿದ ಖಾತೆ</string>
+    <string name="coimbatore">ಕೊಯಮತ್ತೂರು</string>
+    <string name="collectMoneySuccessfully">ಹಣವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸಂಗ್ರಹಿಸಿ</string>
+    <string name="collectRejectedSuccessfully">ಸಂಗ್ರಹಿಸಿ ಯಶಸ್ವಿಯಾಗಿ ತಿರಸ್ಕರಿಸಲಾಗಿದೆ</string>
+    <string msgid="4770915072144378781" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ಗೆ ಪ್ರಸ್ತುತವಾಗಿ ಲಭ್ಯವಿಲ್ಲದ ಒಂದು ಅಥವಾ ಹೆಚ್ಚು Google Play ಸೇವೆಗಳ ಅಗತ್ಯವಿದೆ. ದಯವಿಟ್ಟು ಸಹಾಯಕ್ಕಾಗಿ ಡೆವಲಪರ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಿ."</string>
+    <string msgid="2050101795821476669" name="common_google_play_services_enable_button">"Google Play ಸೇವೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Google Play ಸೇವೆಗಳನ್ನು ನೀವು ಸಕ್ರಿಯಗೊಳಿಸದ ಹೊರತು <ns1:g id="APP_NAME">%1$s</ns1:g> ಕಾರ್ಯನಿರ್ವಹಿಸುವುದಿಲ್ಲ."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play ಸೇವೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
+    <string msgid="7118643132557593940" name="common_google_play_services_install_button">"Google Play ಸೇವೆಗಳನ್ನು ಪಡೆಯಿರಿ"</string>
+    <string msgid="1666261992894286769" name="common_google_play_services_install_text_phone">"Google Play ಸೇವೆಗಳಿಲ್ಲದೆ ನಿಮ್ಮ ಫೋನ್‍‍ನಿಂದ ಕಾಣೆಯಾಗಿರುವ <ns1:g id="APP_NAME">%1$s</ns1:g> ರನ್ ಆಗುವುದಿಲ್ಲ."</string>
+    <string msgid="1701766622451829291" name="common_google_play_services_install_text_tablet">"Google Play ಸೇವೆಗಳಿಲ್ಲದೆ ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್‍ನಿಂದ ಕಾಣೆಯಾಗಿರುವ <ns1:g id="APP_NAME">%1$s</ns1:g> ರನ್ ಆಗುವುದಿಲ್ಲ."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play ಸೇವೆಗಳನ್ನು ಪಡೆಯಿರಿ"</string>
+    <string msgid="479501935061677276" name="common_google_play_services_invalid_account_text">"ಈ ಸಾಧನದಲ್ಲಿ ನಿರ್ದಿಷ್ಟಪಡಿಸಲಾದ ಖಾತೆಯು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಬೇರೆಯ ಖಾತೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ."</string>
+    <string msgid="5775407690646375078" name="common_google_play_services_invalid_account_title">"ಅಮಾನ್ಯವಾದ ಖಾತೆ"</string>
+    <string msgid="6857745590248226927" name="common_google_play_services_network_error_text">"Google Play ಸೇವೆಗಳಿಗೆ ಸಂಪರ್ಕ ಹೊಂದಲು ಡೇಟಾ ಸಂಪರ್ಕದ ಅಗತ್ಯವಿದೆ."</string>
+    <string msgid="4183541461338112307" name="common_google_play_services_network_error_title">"ನೆಟ್‍ವರ್ಕ್ ದೋಷ"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play ಸೇವೆಗಳ ದೋಷ"</string>
+    <string msgid="8897126254633757462" name="common_google_play_services_resolution_required_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ಮೂಲಕ ಅಗತ್ಯವಿರುವ ಕ್ರಿಯೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ."</string>
+    <string msgid="7524004365913123453" name="common_google_play_services_resolution_required_title">"Google Play ಸೇವೆಗಳಿಗೆ ಕ್ರಮ ಅಗತ್ಯವಿದೆ"</string>
+    <string msgid="3111284987662714014" name="common_google_play_services_restricted_profile_text">"ನಿರ್ಬಂಧಿತ ಪ್ರೊಫೈಲ್‌ನಿಂದ ಖಾತೆಗಳ ಪ್ರವೇಶಿಸುವಿಕೆ ಬೆಂಬಲಿತವಾಗಿಲ್ಲ."</string>
+    <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"ನಿರ್ಬಂಧಿತ ಪ್ರೊಫೈಲ್"</string>
+    <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"ಸೂಚಿಸಿದ ಖಾತೆಗೆ ಸೈನ್ ಇನ್ ಮಾಡುವಲ್ಲಿ ದೋಷ ಇದೆ. ದಯವಿಟ್ಟು ಮತ್ತೊಂದು ಖಾತೆಯನ್ನು ಆರಿಸಿ."</string>
+    <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"ಸೈನ್ ಇನ್ ವಿಫಲವಾಗಿದೆ"</string>
+    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"Google Play ಸೇವೆಗಳಲ್ಲಿ <ns1:g id="APP_NAME">%1$s</ns1:g> ಅಪ್ಲಿಕೇಶನ್ ಸಮಸ್ಯೆಯನ್ನು ಎದುರಿಸುತ್ತಿದೆ. ಸಮಸ್ಯೆ ಮುಂದುವರಿದರೆ, ಸಹಾಯಕ್ಕಾಗಿ ಡೆವಲಪರ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಿ."</string>
+    <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ನಿಮ್ಮ ಸಾಧನವು ಬೆಂಬಲಿಸದಿರುವಂತಹ Google Play ಸೇವೆಗಳನ್ನು ಅವಲಂಬಿಸಿದೆ. ಸಹಾಯಕ್ಕಾಗಿ ತಯಾರಕರನ್ನು ಸಂಪರ್ಕಿಸಿ."</string>
+    <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Google Play ಸೇವೆಗಳು"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"ಅಪ್‌ಡೇಟ್‌ ಮಾಡು"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"ನೀವು Google Play ಸೇವೆಗಳನ್ನು ನವೀಕರಿಸದ ಹೊರತು <ns1:g id="APP_NAME">%1$s</ns1:g> ರನ್ ಆಗುವುದಿಲ್ಲ."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play ಸೇವೆಗಳನ್ನು ಅಪ್‌ಡೇಟ್‌ ಮಾಡಿ"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Google Play ಸೇವೆಗಳಿಲ್ಲದೆ ಪ್ರಸ್ತುತ ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತಿರುವ <ns1:g id="APP_NAME">%1$s</ns1:g> ರನ್ ಆಗುವುದಿಲ್ಲ."</string>
+    <string msgid="2270671469198016014" name="common_google_play_services_updating_title">"Google Play ಸೇವೆಗಳನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಲಾಗುತ್ತಿದೆ"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play ಸೇವೆಗಳ ಹೊಸ ಆವೃತ್ತಿ ಅಗತ್ಯವಿದೆ. ಸದ್ಯದಲ್ಲೇ ಅದು ತಾನಾಗಿಯೇ ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತದೆ."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"ಫೋನ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"ಸೈನ್ ಇನ್"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Google ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡಿ"</string>
+    <string name="completelySafeAndSecure">ಸಂಪೂರ್ಣವಾಗಿ ಸುರಕ್ಷಿತ ಮತ್ತು ಸುರಕ್ಷಿತ</string>
+    <string name="configurationLoadingFailed..PleaseLogoutAndLogin.">
+ಕಾನ್ಫಿಗರೇಶನ್ ಲೋಡ್ ವಿಫಲವಾಗಿದೆ .. ದಯವಿಟ್ಟು ಲಾಗ್ಔಟ್ ಮಾಡಿ ಮತ್ತು ಲಾಗಿನ್ ಮಾಡಿ.
+</string>
+    <string name="confirm">ದೃಢೀಕರಿಸಿ</string>
+    <string name="confirmAccountNumber">ಖಾತೆ ಸಂಖ್ಯೆಯನ್ನು ದೃ irm ೀಕರಿಸಿ</string>
+    <string name="confirmApproval">ಅನುಮೋದನೆಯನ್ನು ದೃಢೀಕರಿಸಿ</string>
+    <string name="confirmation">ದೃಢೀಕರಣ</string>
+    <string name="confirmationPage">ದೃಢೀಕರಣ ಪುಟ</string>
+    <string name="connectingUPIServer.....">ಯುಪಿಐ ಸರ್ವರ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ .....</string>
+    <string name="contacts">ಸಂಪರ್ಕಗಳು</string>
+    <string name="contents">ಪರಿವಿಡಿ =</string>
+    <string name="continueWord">ಮುಂದುವರಿಸಿ</string>
+    <string name="copy">ನಕಲಿಸಿ</string>
+    <string name="couldNotGetExistingToken">ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಟೋಕನ್ ಅನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
+    <string name="couldNotGetHandle.PleaseRestartTheApplication.">
+ಹ್ಯಾಂಡಲ್ ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.ದಯವಿಟ್ಟು ಅಪ್ಲಿಕೇಶನ್ ಮರುಪ್ರಾರಂಭಿಸಿ.
+</string>
+    <string name="couldNotGetSelectedAccNoDetails.PleaseTryAgainLater."/>
+    <string name="courier">ಕೊರಿಯರ್</string>
+    <string name="createVPA">VPA ಅನ್ನು ರಚಿಸಿ</string>
+    <string name="creditCard">ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್</string>
+    <string name="creditDeclineReversal">ಕ್ರೆಡಿಟ್ ಕುಸಿತ ರಿವರ್ಸಲ್</string>
+    <string name="creditTransactionFailed">ಕ್ರೆಡಿಟ್ ಟ್ರಾನ್ಸಾಕ್ಷನ್ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="csbrcBalance">ಸಿಎಸ್ಆರ್ಆರ್ಸಿ ಬ್ಯಾಲೆನ್ಸ್</string>
+    <string name="csbrcCashBackBalance">CSBRC ಕ್ಯಾಶ್ಬ್ಯಾಕ್ ಬ್ಯಾಲೆನ್ಸ್</string>
+    <string name="csbrcGeneralBalance">CSBRC ಜನರಲ್ ಬ್ಯಾಲೆನ್ಸ್</string>
+    <string name="currentDate">ಇಂದಿನ ದಿನಾಂಕ</string>
+    <string name="currentOperator">ಪ್ರಸ್ತುತ ಆಯೋಜಕರು</string>
+    <string name="custom">ಕಸ್ಟಮ್</string>
+    <string name="customerAccountNo">ಗ್ರಾಹಕ ಖಾತೆ ಇಲ್ಲ</string>
+    <string name="customerAlreadyRegistered">ಗ್ರಾಹಕ ಈಗಾಗಲೇ ನೋಂದಾಯಿಸಲಾಗಿದೆ</string>
+    <string name="customerId">ಗ್ರಾಹಕ ಐಡಿ</string>
+    <string name="customerMobileNo">ಗ್ರಾಹಕ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ</string>
+    <string name="customerMobileNo.">ಗ್ರಾಹಕರ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ.</string>
+    <string name="customerNotRegistered">ಗ್ರಾಹಕ ನೋಂದಾಯಿಸಲಾಗಿಲ್ಲ</string>
+    <string name="customerPhoneNo">ಗ್ರಾಹಕ ಫೋನ್ ಇಲ್ಲ</string>
+    <string name="customerService">ಗ್ರಾಹಕ ಸೇವೆ</string>
+    <string name="cutoffIsInProcessBeneficiary">ಕಡಿತವು ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿದೆ (ಫಲಾನುಭವಿ)</string>
+    <string name="cutoffIsInProcessRemitter">ಕಟ್ಆಫ್ ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿದೆ (ರಿಮಿಟರ್)</string>
+    <string name="cvv">ಸಿವಿವಿ</string>
+    <string name="cvvCode">ಸಿವಿವಿ ಕೋಡ್</string>
+    <string name="d.o.b">DOB</string>
+    <string name="daily">ದಿನನಿತ್ಯ</string>
+    <string name="dailyBudget">ದೈನಂದಿನ ಬಜೆಟ್</string>
+    <string name="data">ಡೇಟಾ</string>
+    <string name="dataCard">ಡೇಟಾ ಕಾರ್ಡ್</string>
+    <string name="dataCardNumber">ಡೇಟಾ ಕಾರ್ಡ್ ಸಂಖ್ಯೆ</string>
+    <string name="dataRecharge">ಡೇಟಾ ರೀಚಾರ್ಜ್</string>
+    <string name="dateIsInaccurate">ದಿನಾಂಕ ಕರಾರುವಾಕ್ಕಾಗಿಲ್ಲ</string>
+    <string name="deactivatedVPA">ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದ VPA</string>
+    <string name="debitCard">ಡೆಬಿಟ್ ಕಾರ್ಡ್</string>
+    <string name="debitCardDetailsEnteredAreInvalid">ನಮೂದಿಸಿದ ಡೆಬಿಟ್ ಕಾರ್ಡ್ ವಿವರಗಳು ಅಮಾನ್ಯವಾಗಿದೆ</string>
+    <string name="debitTransactionFailed">ಡೆಬಿಟ್ ಟ್ರಾನ್ಸಾಕ್ಷನ್ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="dec">ಡಿಸೆಂಬರ್</string>
+    <string name="decline">ನಿರಾಕರಿಸಿ</string>
+    <string name="delhi">ದೆಹಲಿ</string>
+    <string name="deliveryDate">ವಿತರಣಾ ದಿನಾಂಕ</string>
+    <string name="denied">ನಿರಾಕರಿಸಲಾಗಿದೆ</string>
+    <string name="deny">ನಿರಾಕರಿಸು</string>
+    <string name="departureTime">ನಿರ್ಗಮನ ಸಮಯ</string>
+    <string name="deregister">ಡೆರೆಜಿಸ್ಟರ್</string>
+    <string name="deregisterSuccessfully">ಡೆರೆಜಿಸ್ಟರ್ ಯಶಸ್ವಿಯಾಗಿ</string>
+    <string name="description">ವಿವರಣೆ</string>
+    <string name="detailPage">ವಿವರ ಪುಟ</string>
+    <string name="detectingOTP">OTP ಯನ್ನು ಪತ್ತೆಹಚ್ಚಲಾಗುತ್ತಿದೆ</string>
+    <string name="device">ಸಾಧನ</string>
+    <string name="discount">ರಿಯಾಯಿತಿ</string>
+    <string name="dish">ಡಿಶ್</string>
+    <string name="dishRecharge">ಡಿಶ್ ರೀಚಾರ್ಜ್</string>
+    <string name="disperse">ಹರಡಿ</string>
+    <string name="doYouWantToUnlinkThisAccount">ಈ ಖಾತೆಯನ್ನು ಅನ್ಲಿಂಕ್ ಮಾಡಲು ನೀವು ಬಯಸುವಿರಾ?</string>
+    <string name="dob">DOB</string>
+    <string name="done">ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+    <string name="doneSuccessfully">ಯಶಸ್ವಿಯಾಗಿ ಮುಗಿದಿದೆ</string>
+    <string name="dormantAccountDecline">ಸುಪ್ತ ಖಾತೆ / ನಿರಾಕರಣೆ</string>
+    <string name="droppingPoint">ಡ್ರಾಪ್ಪಿಂಗ್ ಪಾಯಿಂಟ್</string>
+    <string name="dth">ಡಿಟಿಎಚ್</string>
+    <string name="dueToTechnicalProblem.">ತಾಂತ್ರಿಕ ಸಮಸ್ಯೆ ಕಾರಣ.</string>
+    <string name="duration">ಅವಧಿ</string>
+    <string name="dynamic">ಡೈನಾಮಿಕ್</string>
+    <string name="eCommerce">ಇ-ವಾಣಿಜ್ಯ</string>
+    <string name="economy">ಆರ್ಥಿಕತೆ</string>
+    <string name="edit">ಸಂಪಾದಿಸಿ</string>
+    <string name="ekyc">ಇಕೆವೈಸಿ</string>
+    <string name="electric">ಎಲೆಕ್ಟ್ರಿಕ್</string>
+    <string name="email">ಇಮೇಲ್</string>
+    <string name="emailId">ಇಮೇಲ್ ಐಡಿ</string>
+    <string name="emi">ಇಎಂಐ</string>
+    <string name="english">ಇಂಗ್ಲಿಷ್</string>
+    <string name="enter">ನಮೂದಿಸಿ</string>
+    <string name="enterACNo.">ಎ / ಸಿ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ.</string>
+    <string name="enterAmount">ಮೊತ್ತವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterAnyAmount">ಯಾವುದೇ ಮೊತ್ತವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterBillAmount">ಬಿಲ್ ಪ್ರಮಾಣವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterBillerName">ಬಿಲ್ಲರ್ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterCVV">CVV ನಮೂದಿಸಿ?</string>
+    <string name="enterCity">ನಗರವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterConfirmPin">ದೃಢೀಕರಣ ಪಿನ್ ನಮೂದಿಸಿ</string>
+    <string name="enterCustomerAccountNo.">ಗ್ರಾಹಕ ಖಾತೆ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ</string>
+    <string name="enterCustomerId">ಗ್ರಾಹಕರ ಐಡಿ ನಮೂದಿಸಿ</string>
+    <string name="enterCustomerMobileNo.">ಗ್ರಾಹಕ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ</string>
+    <string name="enterCustomerPhoneNo.">ಗ್ರಾಹಕರ ಫೋನ್ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ</string>
+    <string name="enterCustomerPhoneNumber">ಗ್ರಾಹಕ ಫೋನ್ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ</string>
+    <string name="enterDOB">ಹುಟ್ಟಿದ ದಿನಾಂಕವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterDataCardNumber">ಡೇಟಾ ಕಾರ್ಡ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterDebitCardDetails">ಡೆಬಿಟ್ ಕಾರ್ಡ್ ವಿವರಗಳನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterGroupName">ಗುಂಪಿನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterID">ID ಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterItem">ಐಟಂ ನಮೂದಿಸಿ</string>
+    <string name="enterKitNumber">ಕಿಟ್ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ</string>
+    <string name="enterMMID">MMID ಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterManually">ಹಸ್ತಚಾಲಿತವಾಗಿ ನಮೂದಿಸಿ</string>
+    <string name="enterManuallyName">ಹಸ್ತಚಾಲಿತವಾಗಿ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterMessage">ಸಂದೇಶವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterMobileNo.">ಮೊಬೈಲ್ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ</string>
+    <string name="enterMobileNumber">ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterName">ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterNewPin">ಹೊಸ ಪಿನ್ ನಮೂದಿಸಿ</string>
+    <string name="enterNumberID">ಸಂಖ್ಯೆ / ID ಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterOTP">OTP ಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterPin">ಪಿನ್ ನಮೂದಿಸಿ</string>
+    <string name="enterPolicyNumber">ನೀತಿ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ</string>
+    <string name="enterPrice">ಬೆಲೆ ನಮೂದಿಸಿ</string>
+    <string name="enterPromoCode">ಪ್ರೊಮೊ ಕೋಡ್ ನಮೂದಿಸಿ</string>
+    <string name="enterQuantity">ಪ್ರಮಾಣವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterUPIPIN">UPI PIN ನಮೂದಿಸಿ</string>
+    <string name="enterVPA">VPA ಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterVPAS">ವಿಪಿ ದರ್ಜೆ</string>
+    <string name="enterValidData">ಮಾನ್ಯವಾದ ಡೇಟಾವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterValidMobileNumber">ಮಾನ್ಯ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ</string>
+    <string name="enterValidMonth">ಮಾನ್ಯ ತಿಂಗಳು ನಮೂದಿಸಿ</string>
+    <string name="enterVirtualAddress">ವರ್ಚುವಲ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterYourDebitCardDetails">ನಿಮ್ಮ ಡೆಬಿಟ್ ಕಾರ್ಡ್ ವಿವರಗಳನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterYourGender">ನಿಮ್ಮ ಲಿಂಗವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="enterYourPinToViewCardDetails">
+ಕಾರ್ಡ್ ವಿವರಗಳನ್ನು ವೀಕ್ಷಿಸಲು ನಿಮ್ಮ ಪಿನ್ ಅನ್ನು ನಮೂದಿಸಿ
+</string>
+    <string name="enterYourValidName">ನಿಮ್ಮ ಮಾನ್ಯ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="entreBillAmount">ಪ್ರವೇಶ ಬಿಲ್ ಮೊತ್ತ</string>
+    <string name="error">ದೋಷ</string>
+    <string name="expenseManager">ಖರ್ಚಿನ ವ್ಯವಸ್ಥಾಪಕ</string>
+    <string name="expiredCardDetails">ಅವಧಿ ಮುಗಿದ ಕಾರ್ಡ್ ವಿವರಗಳು</string>
+    <string name="expiryDate">ಗಡುವು ದಿನಾಂಕ</string>
+    <string name="expiryDateOfTheAboveCard.">ಮೇಲಿನ ಕಾರ್ಡ್ನ ಅವಧಿ ಮುಗಿಯುವ ದಿನಾಂಕ.</string>
+    <string name="failed.">ವಿಫಲವಾಗಿದೆ.</string>
+    <string name="failedSharingReasonErrorType">ವಿಫಲವಾದ ಹಂಚಿಕೆ - ಕಾರಣ: ದೋಷ ಪ್ರಕಾರ =</string>
+    <string name="failure">ವೈಫಲ್ಯ</string>
+    <string name="falseValue">ಸುಳ್ಳು</string>
+    <string name="faq">ಸಾಮಾನ್ಯ ವಿಷಯ</string>
+    <string name="fare">ಶುಲ್ಕ</string>
+    <string name="feb">ಫೆಬ್ರ</string>
+    <string name="fedrcBalance">FEDRC ಬ್ಯಾಲೆನ್ಸ್</string>
+    <string name="fedrcCashBackBalance">FEDRC ಕ್ಯಾಶ್ ಬ್ಯಾಕ್ ಬ್ಯಾಲೆನ್ಸ್</string>
+    <string name="fedrcGeneralBalance">FEDRC ಜನರಲ್ ಬ್ಯಾಲೆನ್ಸ್</string>
+    <string name="female">ಸ್ತ್ರೀ</string>
+    <string name="fileNotFound">ಫೈಲ್ ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="filter">ಫಿಲ್ಟರ್</string>
+    <string name="filterBy">ಫಿಲ್ಟರ್ ಬೈ</string>
+    <string name="firstName">ಮೊದಲ ಹೆಸರು</string>
+    <string name="fixed">ಸ್ಥಿರ</string>
+    <string name="flight">ಫ್ಲೈಟ್</string>
+    <string name="forgotPin">ಪಿನ್ ಮರೆತಿದ್ದಾರೆ</string>
+    <string name="format">, ಫಾರ್ಮ್ಯಾಟ್ =</string>
+    <string name="fourG">4 ಜಿ</string>
+    <string name="from">ನಿಂದ</string>
+    <string name="full">ಪೂರ್ಣ</string>
+    <string name="fullTalkTime">ಪೂರ್ಣ ಟಾಕ್ಟೈಮ್</string>
+    <string name="gallery">ಗ್ಯಾಲರಿ</string>
+    <string name="gas">ಗ್ಯಾಸ್</string>
+    <string name="gender">ಲಿಂಗ</string>
+    <string name="generateOTP">OTP ಅನ್ನು ರಚಿಸಿ</string>
+    <string name="genericFailureInSendingSMS">SMS ಕಳುಹಿಸುವಲ್ಲಿ ಜೆನೆರಿಕ್ ವೈಫಲ್ಯ</string>
+    <string name="getTipsToInvestSaveAndSecureYourMoney">
+ನಿಮ್ಮ ಹಣವನ್ನು ಉಳಿಸಲು ಮತ್ತು ಭದ್ರತೆಗೆ ಹೂಡಿಕೆ ಮಾಡಲು ಸಲಹೆಗಳನ್ನು ಪಡೆಯಿರಿ
+</string>
+    <string name="gettingProblemInToken.CouldNotRegisterTheAppInCL."/>
+    <string name="gifThemes">GIF ಥೀಮ್ಗಳು</string>
+    <string name="giftCard">ಉಡುಗೊರೆ ಪತ್ರ</string>
+    <string name="giftVoucher">ಉಡುಗೊರೆ ಚೀಟಿ</string>
+    <string name="goBalance">ಸಮತೋಲನ ಮಾಡಿ</string>
+    <string name="goPay">ಗೋ ಪೇ</string>
+    <string name="goTab">ಟ್ಯಾಬ್ ಹೋಗಿ</string>
+    <string name="goWallet">ವಾಲೆಟ್ ಹೋಗಿ</string>
+    <string name="goapi">goAPI</string>
+    <string name="goid">ಗೋ ಐಡಿ</string>
+    <string name="googlePlay">ಗೂಗಲ್ ಆಟ</string>
+    <string name="googleplay">ಗೂಗಲ್ ಆಟ</string>
+    <string name="gopay">ಗೋಪೇ</string>
+    <string name="gosdk">goSDK</string>
+    <string name="gotab">ಗೋಟಾಬ್</string>
+    <string name="goupi">goUPI</string>
+    <string name="gowallet">ವಾಲೆಟ್ ಹೋಗಿ</string>
+    <string name="gowalletGift">ವಾಲೆಟ್ ಗಿಫ್ಟ್ ಹೋಗಿ</string>
+    <string name="grocery">ದಿನಸಿ</string>
+    <string name="group">ಗುಂಪು</string>
+    <string name="gujarati">ಗುಜರಾತಿ</string>
+    <string name="gujrati">ಗುಜ್ರಾಟಿ</string>
+    <string name="haveAPromoCode">ಪ್ರೊಮೊ ಕೋಡ್ ಇದೆ</string>
+    <string name="hdfc">ಎಚ್ಡಿಎಫ್ಸಿ</string>
+    <string name="hearfailed">ಹಿಯರ್ಫೈಲ್ಡ್</string>
+    <string name="hindi">ಹಿಂದಿ</string>
+    <string name="history">ಇತಿಹಾಸ</string>
+    <string name="historyDetailPage">ಇತಿಹಾಸ ವಿವರ ಪುಟ</string>
+    <string name="historyPage">ಇತಿಹಾಸ ಪುಟ</string>
+    <string name="home">ಮುಖಪುಟ</string>
+    <string name="hotels">ಹೊಟೇಲ್</string>
+    <string name="hyderabad">ಹೈದರಾಬಾದ್</string>
+    <string name="iAcceptTermsAndCondition">ನಾನು ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳನ್ನು ಸ್ವೀಕರಿಸುತ್ತೇನೆ</string>
+    <string name="iAgreedTemsAndConditions.">ನಾನು tems ಮತ್ತು ಷರತ್ತುಗಳನ್ನು ಒಪ್ಪಿಕೊಂಡೆ.</string>
+    <string name="icici">ಐಸಿಐಸಿಐ</string>
+    <string name="idfc">IDFC</string>
+    <string name="ifsc"> ಐಎಫ್ಎಸ್ಸಿ</string>
+    <string name="ignore">ನಿರ್ಲಕ್ಷಿಸು</string>
+    <string name="inactiveAccount">ನಿಷ್ಕ್ರಿಯ ಖಾತೆ</string>
+    <string name="inactiveMerchant">ನಿಷ್ಕ್ರಿಯ ವ್ಯಾಪಾರಿ</string>
+    <string name="incoming">ಒಳಬರುವ</string>
+    <string name="incomingAccountOutgoingAccountNotRegisteredWithThisMobileNumber.">
+ಒಳಬರುವ ಖಾತೆ / ಹೊರಹೋಗುವ ಖಾತೆ ಈ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯಲ್ಲಿ ನೋಂದಣಿಯಾಗಿಲ್ಲ.
+</string>
+    <string name="incorrectInvalidPayeeVirtualAddress">ತಪ್ಪಾದ / ಅಮಾನ್ಯ Payee ವರ್ಚುವಲ್ ವಿಳಾಸ</string>
+    <string name="incorrectInvalidPayerVirtualAddress">ತಪ್ಪಾದ / ಅಮಾನ್ಯವಾದ ಪೇಯರ್ ವರ್ಚುವಲ್ ವಿಳಾಸ</string>
+    <string name="incorrectOTP">ತಪ್ಪಾದ OTP</string>
+    <string name="indiaStandardTime">(ಇಂಡಿಯಾ ಸ್ಟ್ಯಾಂಡರ್ಡ್ ಟೈಮ್)</string>
+    <string name="indore">ಇಂದೋರ್</string>
+    <string name="info">ಮಾಹಿತಿ</string>
+    <string name="infoOnTokenFailed">ಮಾಹಿತಿ ಮೇಲೆ ಟೋಕನ್ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="initializingPleaseWait">ಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ, ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ</string>
+    <string name="installment">ಕಂತು</string>
+    <string name="insufficientFund">ಸಾಕಷ್ಟಿಲ್ಲದ ಫಂಡ್</string>
+    <string name="insurance">ವಿಮೆ</string>
+    <string name="interalIssueTryAfterSomeTime.">ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಇಂಟರ್ನಲ್ ವಿವಾದ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="internetBanking">ಇಂಟರ್ನೆಟ್ ಬ್ಯಾಂಕಿಂಗ್</string>
+    <string name="internetNotAvailable">ಇಂಟರ್ನೆಟ್ ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="invalidAccountNumber.">ಅಮಾನ್ಯವಾದ ಖಾತೆ ಸಂಖ್ಯೆ.</string>
+    <string name="invalidAmount">ಅಮಾನ್ಯವಾದ ಮೊತ್ತ</string>
+    <string name="invalidBusinessName">ಅಮಾನ್ಯವಾದ ವ್ಯಾಪಾರ ಹೆಸರು</string>
+    <string name="invalidDateOfBirth">ಅಮಾನ್ಯವಾದ ದಿನಾಂಕ</string>
+    <string name="invalidMPINEntered">ಅಮಾನ್ಯ ಎಂ-ಪಿನ್ ನಮೂದಿಸಲಾಗಿದೆ</string>
+    <string name="invalidRequest">ಅಮಾನ್ಯ ವಿನಂತಿ</string>
+    <string name="invalidTransactionBeneficiary">ಅಮಾನ್ಯವಾದ ವಹಿವಾಟು (ಫಲಾನುಭವಿ)</string>
+    <string name="invalidTransactionIfMemberIsNotAbleToFindAnyAppropriateResponseCodeREMITTER.">
+ಸದಸ್ಯರು ಇದ್ದಲ್ಲಿ ಅಮಾನ್ಯ ವಹಿವಾಟು ಯಾವುದೇ ಸೂಕ್ತ ಪ್ರತಿಕ್ರಿಯೆಯ ಕೋಡ್ (ಮರುಮಾರಾಟ)
+</string>
+    <string name="invalidTransactionRemitter">ಅಮಾನ್ಯವಾದ ವಹಿವಾಟು (ರಿಮಿಟರ್)</string>
+    <string name="invalidTxnID.">ಅಮಾನ್ಯವಾದ TxnID.</string>
+    <string name="invalidUPIPIN">ಅಮಾನ್ಯವಾದ UPI PIN</string>
+    <string name="invalidVPA">ಅಮಾನ್ಯ VPA</string>
+    <string name="invalidVpaFormat.LikeIdfb">ಅಮಾನ್ಯ VPA ಸ್ವರೂಪ. @idfb ಹಾಗೆ</string>
+    <string name="isSelected">ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="items">ವಸ್ತುಗಳು</string>
+    <string name="jan">ಜನವರಿ</string>
+    <string name="journeyDate">ಜರ್ನಿ ದಿನಾಂಕ</string>
+    <string name="jul">ಜುಲೈ</string>
+    <string name="jun">ಜೂನ್</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="kolkata">ಕೊಲ್ಕತ್ತಾ</string>
+    <string name="kotak">ಕೋಟಾಕ್</string>
+    <string name="landline">ಲ್ಯಾಂಡ್ಲೈನ್</string>
+    <string name="lastName">ಕೊನೆಯ ಹೆಸರು</string>
+    <string name="lastRechargeToday">ಕೊನೆಯ ಮರುಚಾರ್ಜ್ ಇಂದು</string>
+    <string name="lastSixDigits">ಕೊನೆಯ ಆರು ಅಂಕೆಗಳು</string>
+    <string name="lastTransaction">ಕೊನೆಯ ವಹಿವಾಟು</string>
+    <string name="lend">ಸಾಲ</string>
+    <string name="lendAndBorrow">ಸಾಲ ಮತ್ತು ಸಾಲ</string>
+    <string name="lendandborrow">ಸಾಲ ಕೊಡು</string>
+    <string name="lending">ಸಾಲ ನೀಡಲಾಗುತ್ತಿದೆ</string>
+    <string name="linkAccount">ಲಿಂಕ್ ಖಾತೆ</string>
+    <string name="listview">ಪಟ್ಟಿ ವೀಕ್ಷಣೆ</string>
+    <string name="loading">ಲೋಡ್ ಆಗುತ್ತಿದೆ</string>
+    <string name="loan">ಸಾಲ</string>
+    <string name="location">ಸ್ಥಳ</string>
+    <string name="logInWithAnotherID">ಮತ್ತೊಂದು ID ನೊಂದಿಗೆ ಲಾಗ್ ಇನ್ ಮಾಡಿ</string>
+    <string name="logSystem">ಲಾಗ್ ಸಿಸ್ಟಮ್</string>
+    <string name="loginCancelledByUser">ಲಾಗಿನ್ ರದ್ದು ಬಳಕೆದಾರರಿಂದ!</string>
+    <string name="loginFailed">ಪ್ರವೇಶ ವಿಫಲವಾಯಿತು</string>
+    <string name="loginSessenExpiredPleaseTryAgain">ಲಾಗಿನ್ ಸೆಸೆನ್ ಅವಧಿ ಮೀರಿದೆ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ!</string>
+    <string name="loginSessionExpired">ಲಾಗಿನ್ ಸೆಷನ್ ಅವಧಿ ಮುಗಿದಿದೆ</string>
+    <string name="loginVia">ಮೂಲಕ ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="loginWithAnotherAccount">ಮತ್ತೊಂದು ಖಾತೆಗೆ ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="loginWithFacebook">ಫೇಸ್ಬುಕ್ ಜೊತೆ ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="loginWithGmail">Gmail ನೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="loginWithTrueCaller">TrueCaller ನೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="logout">ಲಾಗ್ ಔಟ್</string>
+    <string name="madurai">ಮಧುರೈ</string>
+    <string name="makeThisUPIAsDefault">ಈ ಯುಪಿಐ ಅನ್ನು ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಮಾಡಿ</string>
+    <string name="malayalam">ಮಲಯಾಳಂ</string>
+    <string name="male">ಪುರುಷ</string>
+    <string name="manageContact">ಸಂಪರ್ಕವನ್ನು ನಿರ್ವಹಿಸಿ</string>
+    <string name="manageShortcut">ಶಾರ್ಟ್ಕಟ್ ಅನ್ನು ನಿರ್ವಹಿಸಿ</string>
+    <string name="manageVPA">VPA ಅನ್ನು ನಿರ್ವಹಿಸಿ</string>
+    <string name="manglore">ಮಂಗ್ಲೋರ್</string>
+    <string name="manual">ಕೈಪಿಡಿ</string>
+    <string name="map">ನಕ್ಷೆ</string>
+    <string name="mapview"> ನಕ್ಷೆ ವೀಕ್ಷಿಸಿ</string>
+    <string name="mar">ಮಾರ್</string>
+    <string name="marathi">ಮರಾಠಿ</string>
+    <string name="max">ಮ್ಯಾಕ್ಸ್</string>
+    <string name="may">ಮೇ</string>
+    <string name="menu">ಮೆನು</string>
+    <string name="merchant">ವ್ಯಾಪಾರಿ</string>
+    <string name="merchantDetail">ವ್ಯಾಪಾರಿ ವಿವರ</string>
+    <string name="merchantNotFound">ವ್ಯಾಪಾರಿ ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="merchantRefusedToAcceptPayments">ಮರ್ಚೆಂಟ್ ಪಾವತಿಗಳನ್ನು ಸ್ವೀಕರಿಸಲು ನಿರಾಕರಿಸಿದರು</string>
+    <string name="message">ಸಂದೇಶ</string>
+    <string name="messageOptional">ಸಂದೇಶ ಐಚ್ಛಿಕ</string>
+    <string name="min">ಕನಿಷ್ಠ</string>
+    <string name="minimumAdultsValueCanNotBeLowerThan0">ಕನಿಷ್ಟ ವಯಸ್ಕರ ಮೌಲ್ಯವು 0 ಗಿಂತ ಕಡಿಮೆ ಇರುವಂತಿಲ್ಲ</string>
+    <string name="minimumChildrenValueCanNotBeLowerThan0">ಕನಿಷ್ಟ ಮಕ್ಕಳ ಮೌಲ್ಯವು 0 ಗಿಂತ ಕಡಿಮೆ ಇರುವಂತಿಲ್ಲ</string>
+    <string name="miscellaneous">ಇತರೆ</string>
+    <string name="mm">MM</string>
+    <string name="mmid">MMID</string>
+    <string name="mobile">ಮೊಬೈಲ್</string>
+    <string name="mobileEWallet">ಮೊಬೈಲ್ / ಇ-ವಾಲೆಟ್</string>
+    <string name="mobileNo">ಮೊಬೈಲ್ ಇಲ್ಲ -</string>
+    <string name="mobileNumber">ಮೊಬೈಲ್ ನಂಬರ</string>
+    <string name="mobileNumberGOID">ಮೊಬೈಲ್ ಸಂಖ್ಯೆ / ಗೋ ಐಡಿ</string>
+    <string name="mobileRecharge">ಮೊಬೈಲ್ ರೀಚಾರ್ಜ್</string>
+    <string name="monthly">ಮಾಸಿಕ</string>
+    <string name="monthlyBudget">ಮಾಸಿಕ ಬಜೆಟ್</string>
+    <string name="more">ಇನ್ನಷ್ಟು</string>
+    <string name="mostPopularCities">ಅತ್ಯಂತ ಜನಪ್ರಿಯ ನಗರಗಳು</string>
+    <string name="movies">ಚಲನಚಿತ್ರಗಳು</string>
+    <string name="mumbai">ಮುಂಬೈ</string>
+    <string name="municipalTax">ಮುನ್ಸಿಪಲ್ ತೆರಿಗೆ</string>
+    <string name="municipaltax">ಪುರಸಭೆ</string>
+    <string name="myGOWalletCard">ನನ್ನ ಗೋವಾಲೆಟ್ ಕಾರ್ಡ್</string>
+    <string name="name">ಹೆಸರು</string>
+    <string name="needHelp">ಸಹಾಯ ಬೇಕಿದೆ</string>
+    <string name="nepali">ನೇಪಾಳಿ</string>
+    <string name="netBanking">ನೆಟ್ ಬ್ಯಾಂಕಿಂಗ್</string>
+    <string name="newBankAccount">ಹೊಸ ಬ್ಯಾಂಕ್ ಖಾತೆ</string>
+    <string name="nill">ನಿಲ್</string>
+    <string name="no">ಇಲ್ಲ</string>
+    <string name="noCardRecordRemitter">ಯಾವುದೇ ಕಾರ್ಡ್ ದಾಖಲೆ ಇಲ್ಲ (ರಿಮಿಟರ್)</string>
+    <string name="noCollectRequestAvailable">ಸಂಗ್ರಹಣೆ ವಿನಂತಿಯು ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="noCreditAccount">ಯಾವುದೇ ಕ್ರೆಡಿಟ್ ಖಾತೆ ಇಲ್ಲ</string>
+    <string name="noExpiryDateTry01Four9">ಅವಧಿ ಮುಗಿದಿಲ್ಲವೇ? 01/49 ಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="noItemFound">ಯಾವುದೇ ಐಟಂ ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="noMorePayeeDetailsAvailableForTheRegisteredNumber.">
+ನೊ ಮೋರ್ ಪೇಯಿ ವಿವರಗಳನ್ನು ನೋಂದಾಯಿತ ಸಂಖ್ಯೆಗೆ ಲಭ್ಯವಿದೆ.
+</string>
+    <string name="noOfPINTriesExceeded">ಪಿನ್ ಸಂಖ್ಯೆ ಮೀರಿದೆ</string>
+    <string name="noRecordsFound.">ಯಾವುದೇ ದಾಖಲೆಗಳು ಕಂಡುಬಂದಿಲ್ಲ.</string>
+    <string name="noUPIIntentSupportedAppsInstalled">
+ಯಾವುದೇ ಯುಪಿಐ ಉದ್ದೇಶ ಬೆಂಬಲಿತ ಅಪ್ಲಿಕೇಶನ್ಗಳು ಇನ್ಸ್ಟಾಲ್ ಆಗಿಲ್ಲ
+</string>
+    <string name="nonAC">ಅಲ್ಲದ AC</string>
+    <string name="noneOfTheAccountIsMappedToYourMobileNumber.">
+ನಿಮ್ಮ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಗೆ ಯಾವುದೇ ಖಾತೆಯನ್ನು ಮ್ಯಾಪ್ ಮಾಡಲಾಗಿಲ್ಲ.
+</string>
+    <string name="note">ಸೂಚನೆ</string>
+    <string name="nothingFound">ಏನೂ ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="nothingFoundTryADifferentImageOrTryAgain">
+ಕಂಡುಬಂದಿಲ್ಲ ಬೇರೆ ಚಿತ್ರವನ್ನು ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ
+</string>
+    <string name="nov">ನವೆಂಬರ್</string>
+    <string name="numberOfOTPSTriesHasExceeded">OTP ಪ್ರಯತ್ನಗಳ ಸಂಖ್ಯೆ ಮೀರಿದೆ</string>
+    <string name="numberOfPINTriesExceeded">PIN ಯ ಸಂಖ್ಯೆ ಹೆಚ್ಚಾಗಿದೆ</string>
+    <string name="oct">ಅಕ್ಟೋಬರ್</string>
+    <string name="offer">ಆಫರ್</string>
+    <string name="offline">ಆಫ್ಲೈನ್</string>
+    <string name="ok">ಸರಿ</string>
+    <string name="ola">ಓಲಾ</string>
+    <string name="onePassbookForAllExpenses">ಎಲ್ಲಾ ವೆಚ್ಚಗಳಿಗೆ ಒಂದು ಪಾಸ್ಬುಕ್</string>
+    <string name="oneTime">ಒಂದು ಬಾರಿ</string>
+    <string name="online">ಆನ್ಲೈನ್</string>
+    <string name="onlineShopping">ಆನ್ಲೈನ್ ಶಾಪಿಂಗ್</string>
+    <string name="oopsYouJustDeniedThePermission">ಓಹ್ ನೀವು ಅನುಮತಿಯನ್ನು ನಿರಾಕರಿಸಿದ್ದೀರಿ</string>
+    <string name="open">ತೆರೆಯಿರಿ</string>
+    <string name="openDrawer">ಓಪನ್ ಡ್ರಾಯರ್</string>
+    <string name="operator">ಆಪರೇಟರ್</string>
+    <string name="operatorCircle">ಆಪರೇಟರ್ / ಸರ್ಕಲ್</string>
+    <string name="operatorOrCircle">ಆಪರೇಟರ್ ಅಥವಾ ಸರ್ಕಲ್</string>
+    <string name="or">ಅಥವಾ</string>
+    <string name="orUpdate">ಅಥವಾ ನವೀಕರಿಸಿ</string>
+    <string name="orderMyGOWalletCard">ನನ್ನ ಗೋವಾಲೆಟ್ ಕಾರ್ಡ್ ಆದೇಶಿಸಿ</string>
+    <string name="other">ಇತರೆ</string>
+    <string name="otherEGift">ಇತರ ಇ-ಉಡುಗೊರೆ</string>
+    <string name="otherGiftingThemes">ಇತರ ಉಡುಗೊರೆಯನ್ನು ಥೀಮ್ಗಳು</string>
+    <string name="otp">OTP</string>
+    <string name="otpEnteredIsInvalid">ನಮೂದಿಸಲಾದ OTP ಅಮಾನ್ಯವಾಗಿದೆ</string>
+    <string name="otpExpired">OTP ಮುಕ್ತಾಯಗೊಂಡಿದೆ</string>
+    <string name="otpTimeExpired">OTP ಸಮಯ ಮುಕ್ತಾಯಗೊಂಡಿದೆ</string>
+    <string name="otpValidationIsFailed">OTP ಪ್ರಮಾಣೀಕರಣ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="outgoing">ಹೊರಹೋಗುವಿಕೆ</string>
+    <string name="overview">ಅವಲೋಕನ</string>
+    <string name="paid">ಪಾವತಿಸಲಾಗಿದೆ</string>
+    <string name="partialDecline">ಭಾಗಶಃ ಕುಸಿತ</string>
+    <string name="passangers">ಪ್ಯಾಸೆಂಜರ್ಗಳು</string>
+    <string name="passbook">ಪಾಸ್ಬುಕ್</string>
+    <string name="passbookaddeddetails">ಪಾಸ್ಬುಕ್ ಸೇರಿಸಲಾಗಿದೆ ವಿವರಗಳು</string>
+    <string name="passbookdetails">ಪಾಸ್ಬುಕ್ ವಿವರಗಳು</string>
+    <string name="passbookreceiveddetails">ಪಾಸ್ಬುಕ್ ಪುರಸ್ಕೃತ ವಿವರಗಳು</string>
+    <string name="passengers">ಪ್ರಯಾಣಿಕರು</string>
+    <string name="patchyNetworksCanNeverBeTrusted.PleaseCheckYourInternetConnection.">
+ಪ್ಯಾಚಿ ನೆಟ್ವರ್ಕ್ಗಳನ್ನು ಎಂದಿಗೂ ನಂಬಲಾಗುವುದಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸ
+</string>
+    <string name="pay">ಪಾವತಿ</string>
+    <string name="payAtShop">ಮಳಿಗೆಗೆ ಪಾವತಿಸಿ</string>
+    <string name="payUsingOTP">OTP ಬಳಸಿಕೊಂಡು ಪಾವತಿಸಿ</string>
+    <string name="payUsingOtherUPIApp">ಇತರ UPI ಅಪ್ಲಿಕೇಶನ್ ಬಳಸಿ ಪಾವತಿಸಿ</string>
+    <string name="payWith">ಪಾವತಿಸಿ</string>
+    <string name="payatshop">PayAtShop</string>
+    <string name="payeeVirtualAddressAlreadyBlocked.PleaseCheckAndRetry.">
+ಪೇಯಿ ವರ್ಚುವಲ್ ವಿಳಾಸವನ್ನು ಈಗಾಗಲೇ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಪರಿಶೀಲಿಸಿ ಮತ್ತ
+</string>
+    <string name="payementFrequency">ಪಾವತಿ ಆವರ್ತನ</string>
+    <string name="payerAddressIsInvalid.">ಪಾವತಿಸುವ ವಿಳಾಸವು ಅಮಾನ್ಯವಾಗಿದೆ.</string>
+    <string name="payerPayee.Amount.CurMustBePresent.">ಪಾವತಿದಾರ / ಪೇಯಿ .ಮಕ್ಕಳು ಇರಬೇಕು.</string>
+    <string name="paymentFrequency">ಪಾವತಿ ಆವರ್ತನ</string>
+    <string name="paymentType">ಪಾವತಿ ಪ್ರಕಾರ</string>
+    <string name="pduNotFound">PDU ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="pending">ಬಾಕಿ ಉಳಿದಿದೆ</string>
+    <string name="pendingTransaction">ಬಾಕಿ ಉಳಿದಿರುವ ವ್ಯವಹಾರ</string>
+    <string name="pendingUPICollectRequests">UPI ಸಂಗ್ರಹ ವಿನಂತಿಗಳನ್ನು ಬಾಕಿ ಉಳಿದಿದೆ</string>
+    <string name="pendingtxn">ಬಾಕಿ ಉಳಿದಿದೆ</string>
+    <string name="permissionDenied">ಅವಕಾಶ ನೀಡಲಾಗಿಲ್ಲ</string>
+    <string name="permissionGranted">ಅನುಮತಿ ನೀಡಲಾಗಿದೆ</string>
+    <string name="personalisedFinancialAssistance">ವೈಯಕ್ತಿಕಗೊಳಿಸಿದ ಹಣಕಾಸಿನ ನೆರವು</string>
+    <string name="personalize">ವೈಯಕ್ತೀಕರಿಸು</string>
+    <string name="phone">ದೂರವಾಣಿ</string>
+    <string name="phoneNumber">ದೂರವಾಣಿ ಸಂಖ್ಯೆ</string>
+    <string name="physicalECard">ಶಾರೀರಿಕ ಇ-ಕಾರ್ಡ್</string>
+    <string name="pinMisMatch">ಮಿಸ್-ಪಂದ್ಯದಲ್ಲಿ ಪಿನ್ ಮಾಡಿ</string>
+    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"ಹುಡುಕಾಟ ತೆರವುಗೊಳಿಸಿ"</string>
+    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"ಹುಡುಕು"</string>
+    <string name="plan">ಯೋಜನೆ</string>
+    <string name="pleaseAdjustYourDateAndTime">ದಯವಿಟ್ಟು ನಿಮ್ಮ ದಿನಾಂಕ ಮತ್ತು ಸಮಯವನ್ನು ಸರಿಹೊಂದಿಸಿ</string>
+    <string name="pleaseCheckTheTermsAndConditions">ದಯವಿಟ್ಟು ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳನ್ನು ಪರಿಶೀಲಿಸಿ</string>
+    <string name="pleaseCheckYourInternetConnection">ದಯವಿಟ್ಟು ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ</string>
+    <string name="pleaseEnter18">ದಯವಿಟ್ಟು 18 ಅನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="pleaseEnterAValidAmount.">ದಯವಿಟ್ಟು ಮಾನ್ಯ ಮೊತ್ತವನ್ನು ನಮೂದಿಸಿ.</string>
+    <string name="pleaseEnterAValidCustomerIdNumber.">ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಗ್ರಾಹಕರ ಐಡಿ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ.</string>
+    <string name="pleaseEnterAValidMobileNumber.">ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ.</string>
+    <string name="pleaseEnterAmount">ದಯವಿಟ್ಟು ಪ್ರಮಾಣವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="pleaseEnterDescription">ದಯವಿಟ್ಟು ವಿವರಣೆ ನಮೂದಿಸಿ</string>
+    <string name="pleaseEnterPaymentFrequency">ದಯವಿಟ್ಟು ಪಾವತಿ ಆವರ್ತನವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="pleaseEnterRateOfInterest">ದಯವಿಟ್ಟು ಬಡ್ಡಿ ದರವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="pleaseEnterTheLastSixDigitsOfTheDebitCardWhichIsLinkedToTheAboveBankAccount."/>
+    <string name="pleaseEnterUPIID">ದಯವಿಟ್ಟು UPI ID ಅನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="pleaseEnterValidData">ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಡೇಟಾವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="pleaseEnterValidGroupName">ದಯವಿಟ್ಟು ಸರಿಯಾದ ಗುಂಪು ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="pleaseEnterValidItemName">ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಐಟಂ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="pleaseEnterValidItemPrice">ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಐಟಂ ಬೆಲೆ ನಮೂದಿಸಿ</string>
+    <string name="pleaseEnterValidItemQuantity">ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಐಟಂ ಪ್ರಮಾಣವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="pleaseEnterValidMonth">ದಯವಿಟ್ಟು ಮಾನ್ಯ ತಿಂಗಳು ನಮೂದಿಸಿ</string>
+    <string name="pleaseEnterValidOTP">ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ OTP ಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="pleaseEnterValidPin">ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಪಿನ್ ನಮೂದಿಸಿ</string>
+    <string name="pleaseEnterValidYear">ದಯವಿಟ್ಟು ಮಾನ್ಯ ವರ್ಷ ನಮೂದಿಸಿ</string>
+    <string name="pleaseEnterYourDateOfBirth">ದಯವಿಟ್ಟು ನಿಮ್ಮ ಹುಟ್ಟು ದಿನಾಂಕವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="pleaseEnterYourDateOfBirthInYYYYMMDDFormat">
+YYYY-MM-DD ಸ್ವರೂಪದಲ್ಲಿ ನಿಮ್ಮ ಹುಟ್ಟಿದ ದಿನಾಂಕವನ್ನು ನಮೂದಿಸಿ
+</string>
+    <string name="pleaseEnterYourGender">ದಯವಿಟ್ಟು ನಿಮ್ಮ ಲಿಂಗವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="pleaseEnterYourNameAndRecepientsNameAsYouWouldLikeItToAppearOnGift">
+ಉಡುಗೊರೆಯಾಗಿ ಗೋಚರಿಸುವಂತೆ ದಯವಿಟ್ಟು ನಿಮ್ಮ ಹೆಸರನ್ನು ಮತ್ತು ಸ್ವೀಕೃತದಾರರ ಹೆಸರನ್ನು ನಮೂದಿಸಿ!
+</string>
+    <string name="pleaseEnterYourUPIPin">ದಯವಿಟ್ಟು ನಿಮ್ಮ UPI ಪಿನ್ ಅನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="pleaseHitBackButtonAgainstToExit.">ನಿರ್ಗಮಿಸಲು ವಿರುದ್ಧ ಬಟನ್ ಹಿಂತಿರುಗಿ.</string>
+    <string name="pleaseMakeEmailIdPublicFirst.">ದಯವಿಟ್ಟು ಮೊದಲು ಇಮೇಲ್ ಐಡಿ ಅನ್ನು ಸಾರ್ವಜನಿಕವಾಗಿ ಮಾಡಿ.</string>
+    <string name="pleaseProvideAValidUserName">ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಬಳಕೆದಾರ ಹೆಸರನ್ನು ಒದಗಿಸಿ</string>
+    <string name="pleaseProvideDataProperly.">ದಯವಿಟ್ಟು ಡೇಟಾವನ್ನು ಸರಿಯಾಗಿ ಒದಗಿಸಿ.</string>
+    <string name="pleaseSelectAtleastOneAccount.">ದಯವಿಟ್ಟು ಕನಿಷ್ಠ ಒಂದು ಖಾತೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ.</string>
+    <string name="pleaseSelectBusSeat">ದಯವಿಟ್ಟು ಬಸ್ ಸೀಟ್ ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="pleaseWait..">ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ..</string>
+    <string name="pleaseWait....">ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ....</string>
+    <string name="pnb">ಪಿಎನ್ಬಿ</string>
+    <string name="policyHolderDOB">ಪಾಲಿಸಿದಾರರ ಹುಟ್ಟಿದ ದಿನಾಂಕ</string>
+    <string name="policyNumber">ಪಾಲಿಸಿ ಸಂಖ್ಯೆ</string>
+    <string name="pool">ಪೂಲ್</string>
+    <string name="poolAmount">ಪೂಲ್ ಪ್ರಮಾಣ</string>
+    <string name="poolName">ಪೂಲ್ ಹೆಸರು</string>
+    <string name="populatedBy">ಜನಸಂಖ್ಯೆ</string>
+    <string name="pos">ಪಿಓಎಸ್</string>
+    <string name="postpaid">ಪೋಸ್ಟ್ಪೇಯ್ಡ್</string>
+    <string name="poweredBy">ನಡೆಸಲ್ಪಡುತ್ತಿದೆ</string>
+    <string name="poweredByGoProcessingLimited">ಗೋ ಪ್ರೊಸೆಸಿಂಗ್ ಲಿಮಿಟೆಡ್ ನಡೆಸಲ್ಪಡುತ್ತಿದೆ</string>
+    <string name="premium">ಪ್ರೀಮಿಯಂ</string>
+    <string name="prepaid">ಪ್ರಿಪೇಯ್ಡ್</string>
+    <string name="pressAgain">ಮತ್ತೆ ಒತ್ತಿ</string>
+    <string name="preview">ಮುನ್ನೋಟ</string>
+    <string name="price">ಬೆಲೆ</string>
+    <string name="primaryAccountIsSetSuccessfully">ಪ್ರಾಥಮಿಕ ಖಾತೆಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಹೊಂದಿಸಲಾಗಿದೆ</string>
+    <string name="procceed">ಮುಂದುವರೆಯಿರಿ</string>
+    <string name="procceedToDeregister">Deregister ಗೆ ಮುಂದುವರಿಯಿರಿ</string>
+    <string name="procceedToPay">ಪಾವತಿಸಲು ಮುಂದುವರೆಯಿರಿ</string>
+    <string name="proceedToLinkAccount.">ಖಾತೆಯನ್ನು ಲಿಂಕ್ ಮಾಡಲು ಮುಂದುವರಿಯಿರಿ.</string>
+    <string name="proceedToSetUPIPIN">ಯುಪಿಐ ಪಿನ್ ಹೊಂದಿಸಲು ಮುಂದುವರಿಯಿರಿ</string>
+    <string name="provideTheUPIIDYouWishToPayFrom">ನೀವು ಪಾವತಿಸಲು ಬಯಸುವ ಯುಪಿಐ ಐಡಿ ಒದಗಿಸಿ</string>
+    <string name="pune">ಪುಣೆ</string>
+    <string name="punjabi">ಪಂಜಾಬಿ</string>
+    <string name="qrCode">QR ಕೋಡ್</string>
+    <string name="quantity">ಪ್ರಮಾಣ</string>
+    <string name="quaterly">Quaterly</string>
+    <string name="radioOff">ರೇಡಿಯೊ ಆಫ್</string>
+    <string name="rateOfInterest">ಬಡ್ಡಿ ದರ</string>
+    <string name="receive">ಸ್ವೀಕರಿಸಿ</string>
+    <string name="received">ಸ್ವೀಕರಿಸಲಾಗಿದೆ</string>
+    <string name="recent">ಇತ್ತೀಚಿನದು</string>
+    <string name="recharge">ಪುನರ್ಭರ್ತಿ</string>
+    <string name="rechargeSuccessfully">ಯಶಸ್ವಿಯಾಗಿ ರೀಚಾರ್ಜ್</string>
+    <string name="recipientEmail">ಸ್ವೀಕರಿಸುವವರ ಇಮೇಲ್</string>
+    <string name="recipientMobileNumber">ಸ್ವೀಕರಿಸುವವರ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ</string>
+    <string name="recipientName">ಸ್ವೀಕರಿಸುವವರ ಹೆಸರು</string>
+    <string name="recommendedPlans">ಶಿಫಾರಸು ಮಾಡಲಾದ ಯೋಜನೆಗಳು</string>
+    <string name="recordingCompleted">ರೆಕಾರ್ಡಿಂಗ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+    <string name="recordingPlaying">ರೆಕಾರ್ಡಿಂಗ್ ಪ್ಲೇಯಿಂಗ್</string>
+    <string name="recordingStarted">ರೆಕಾರ್ಡಿಂಗ್ ಪ್ರಾರಂಭವಾಯಿತು</string>
+    <string name="refID">ಉಲ್ಲೇಖ ID</string>
+    <string name="registerSuccessfully">ಯಶಸ್ವಿಯಾಗಿ ನೋಂದಾಯಿಸಿ</string>
+    <string name="registrationFailed">ನೋಂದಣಿ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="reject">ತಿರಸ್ಕರಿಸಿ</string>
+    <string name="remark">ಟೀಕಿಸು</string>
+    <string name="remitterAccountBlockedFrozen">ರಿಮಿಟರ್ ಖಾತೆ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ / ಘನೀಕೃತಗೊಂಡಿದೆ</string>
+    <string name="remitterCBSOffline">ರಿಪೈಟರ್ ಸಿಬಿಎಸ್ ಆಫ್ಲೈನ್</string>
+    <string name="remove">ತೆಗೆದುಹಾಕಿ</string>
+    <string name="rent">ಬಾಡಿಗೆ</string>
+    <string name="requestParamIncorrecrtOrServerNotRespondingTryAfterFewSecond"/>
+    <string name="requestedBy">ಅದಕ್ಕೆ ವಿನಂತಿಸಲಾಗಿದೆ</string>
+    <string name="requestedFunctionNotSupportedBeneficiary">ವಿನಂತಿಸಲಾದ ಕಾರ್ಯವು ಬೆಂಬಲಿತವಾಗಿಲ್ಲ (ಫಲಾನುಭವಿ)</string>
+    <string name="requestedFunctionNotSupportedRemitter">ವಿನಂತಿಸಲಾದ ಕಾರ್ಯವು ಬೆಂಬಲಿತವಾಗಿಲ್ಲ (ರಿಮಿಟರ್)</string>
+    <string name="requestedSuccessfully">ಯಶಸ್ವಿಯಾಗಿ ವಿನಂತಿಸಲಾಗಿದೆ</string>
+    <string name="requestedTo">ಗೆ ವಿನಂತಿಸಲಾಗಿದೆ</string>
+    <string name="resendOTP">OTP ಮರು ಕಳುಹಿಸಿ</string>
+    <string name="reset">ಮರುಹೊಂದಿಸಿ</string>
+    <string name="restaurants">ರೆಸ್ಟೋರೆಂಟ್ಗಳು</string>
+    <string name="restrictedCard">ನಿರ್ಬಂಧಿತ ಕಾರ್ಡ್</string>
+    <string name="retailShopping">ಚಿಲ್ಲರೆ ಶಾಪಿಂಗ್</string>
+    <string name="returnDate">ಹಿಂತಿರುಗುವ ದಿನಾಂಕ</string>
+    <string name="rooted_device_error">ROOTED_DEVICE_ERROR</string>
+    <string name="save">ಸಲ್ಲಿಸಿ</string>
+    <string name="saveCard">ಕಾರ್ಡ್ ಸೇರಿಸಿ</string>
+    <string name="saveToGallery">ಗ್ಯಾಲರಿಗೆ ಉಳಿಸಿ</string>
+    <string name="saveToPDF">PDF ಗೆ ಉಳಿಸಿ</string>
+    <string name="savedCard">ಉಳಿಸಿದ ಕಾರ್ಡ್</string>
+    <string name="savedSuccessfully">ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ</string>
+    <string name="savingTips">ಟಿಪ್ಸ್ ಉಳಿಸಲಾಗುತ್ತಿದೆ?</string>
+    <string name="savings">ಉಳಿತಾಯ</string>
+    <string name="sbi">ಎಸ್ಬಿಐ</string>
+    <string name="scanResult">ಫಲಿತಾಂಶವನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
+    <string name="scanqrcode"> ಕ್ಯುಆರ್ ಕೋಡ್ ಸ್ಕೇನ್</string>
+    <string name="scheduleBy">ಅವಲೋಕಿಸಿ</string>
+    <string name="search">ಹುಡುಕು</string>
+    <string name="search..">ಹುಡುಕಿ ..</string>
+    <string name="searchBank">ಹುಡುಕಾಟ ಬ್ಯಾಂಕ್</string>
+    <string name="seatAllotment">ಆಸನ ಹಂಚಿಕೆ</string>
+    <string name="sec">ಸೆಕೆಂಡು</string>
+    <string name="secsToRegenerateOTP">OTP ಅನ್ನು ಮರುಹೊಂದಿಸಲು ಸೆಕೆಂಡುಗಳು</string>
+    <string name="securityQuestionNotFound">ಭದ್ರತಾ ಪ್ರಶ್ನೆಯು ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="selectBank">ಬ್ಯಾಂಕ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectBiller">ಬಿಲ್ಲರ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectBoardingPoint">ಬೋರ್ಡಿಂಗ್ ಪಾಯಿಂಟ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectBranch">ಶಾಖೆ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectBrand">ಬ್ರ್ಯಾಂಡ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectBusType">ಬಸ್ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectCategory">ವರ್ಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectCircle">ವಲಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectDistrict">ಜಿಲ್ಲೆ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectDroppingPoint">ಡ್ರಾಪ್ಪಿಂಗ್ ಪಾಯಿಂಟ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectFriends">ಸ್ನೇಹಿತರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="selectFromDate">ದಿನಾಂಕದಿಂದ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectGetDate">ದಿನಾಂಕವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectImage">ಚಿತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectMonth">ತಿಂಗಳ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectOperator">ಆಪರೇಟರ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectOperatorName">ಆಪರೇಟರ್ ಹೆಸರನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectPayee">ಸ್ವೀಕರಿಸುವವರನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectPaymentMode">ಪಾವತಿ ಮೋಡ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectPoolDate">ಪೂಲ್ ದಿನಾಂಕ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectState">ರಾಜ್ಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="selectToDate">ದಿನಾಂಕ ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="selectType">ಕೌಟುಂಬಿಕತೆ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectVPA">VPA ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectYear">ವರ್ಷ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="selectYourBank">ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="send">ಕಳುಹಿಸು</string>
+    <string name="sendAsGiftToYourFriend">ನಿಮ್ಮ ಸ್ನೇಹಿತರಿಗೆ ಉಡುಗೊರೆಯಾಗಿ ಕಳುಹಿಸಿ</string>
+    <string name="sendData">ಡೇಟಾ ಕಳುಹಿಸಿ</string>
+    <string name="sendInvite">ಆಹ್ವಾನ ಕಳುಹಿಸಿ</string>
+    <string name="sendLater">ನಂತರ ಕಳುಹಿಸಿ</string>
+    <string name="sendMoney">ಹಣ ಕಳುಹಿಸು</string>
+    <string name="sendMoneySuccessfully">ಹಣವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಕಳುಹಿಸಿ</string>
+    <string name="sendNow">ಈಗ ಕಳುಹಿಸಿ</string>
+    <string name="sendYourGiftCardTo">ನಿಮ್ಮ ಉಡುಗೊರೆ ಕಾರ್ಡ್ ಅನ್ನು ಕಳುಹಿಸಿ</string>
+    <string name="senderName">ಕಳುಹಿಸುವವರ ಹೆಸರು</string>
+    <string name="sep">ಸೆಪ್ಟೆಂಬರ್</string>
+    <string name="service">ಸೇವೆ</string>
+    <string name="setLimits">ಮಿತಿಗಳನ್ನು ಹೊಂದಿಸಿ</string>
+    <string name="setPin">ಪಿನ್ ಹೊಂದಿಸಿ</string>
+    <string name="setUPIPINFailed">ಹೊಂದಿಸಿ ಯುಪಿಐ ಪಿನ್ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="setUPIPin">ಯುಪಿಐ ಪಿನ್ ಹೊಂದಿಸಿ</string>
+    <string name="setYourDefaultAccountsForIncomingAndOutgoingMoney">
+ಒಳಬರುವ ಮತ್ತು ಹೊರಹೋಗುವ ಹಣಕ್ಕಾಗಿ ನಿಮ್ಮ ಡೀಫಾಲ್ಟ್ ಖಾತೆಗಳನ್ನು ಹೊಂದಿಸಿ
+</string>
+    <string name="setting">ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="settle">ಸೆಟ್ಲ್</string>
+    <string name="share">ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="shareOtp">ಹಂಚಿಕೊಳ್ಳಿ otp</string>
+    <string name="shareYourGiftVia">ನಿಮ್ಮ ಉಡುಗೊರೆಯನ್ನು ಮೂಲಕ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="shirdi">ಶಿರಡಿ</string>
+    <string name="show">ತೋರಿಸು</string>
+    <string name="showCVV">ಸಿವಿವಿ ತೋರಿಸಿ</string>
+    <string name="showCardNumber">ಕಾರ್ಡ್ ಸಂಖ್ಯೆ ತೋರಿಸಿ</string>
+    <string name="simOne">ಸಿಮ್ ಒನ್</string>
+    <string name="simSelection">ಸಿಮ್ ಆಯ್ಕೆ</string>
+    <string name="simTwo">ಸಿಮ್ ಎರಡು</string>
+    <string name="sleeper">ಸ್ಲೀಪರ್</string>
+    <string name="smsDelivered">SMS ತಲುಪಿಸಲಾಗಿದೆ</string>
+    <string name="smsFailed">SMS ವಿಫಲವಾಗಿದೆ</string>
+    <string name="somethingWeirdHappenIWasProbablyTiredToSolveThisIssue"/>
+    <string name="somethingWrong">ಏನೋ ತಪ್ಪಾಗಿದೆ:</string>
+    <string name="sorryWeHaveEncounteredSnagWhileTryingToConnectToTheUPIServer.">
+ಕ್ಷಮಿಸಿ! ಯುಪಿಐ ಸರ್ವರ್ಗೆ ಸಂಪರ್ಕಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವಾಗ ನಾವು ಸ್ನ್ಯಾಗ್ ಅನ್
+</string>
+    <string name="sorryWeVeEncounteredASnagWhileTryingToConnectToTheUPIServer.PleaseTryAgainLater."/>
+    <string name="sorryYourDeviceDoesnTSupportFlashLight">
+ಕ್ಷಮಿಸಿ, ನಿಮ್ಮ ಸಾಧನವು ಫ್ಲಾಶ್ ಬೆಳಕನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ!
+</string>
+    <string name="sortBy">ವಿಂಗಡಿಸು</string>
+    <string name="specificDate">ನಿರ್ದಿಷ್ಟ ದಿನಾಂಕ</string>
+    <string name="spentInThisMonths">ಈ ತಿಂಗಳಲ್ಲಿ ಖರ್ಚು ಮಾಡಿ</string>
+    <string name="spentToday">ಇಂದು ಖರ್ಚು ಮಾಡಿದೆ</string>
+    <string name="split">ವಿಭಜಿಸಿ</string>
+    <string name="splitAndPools">ವಿಭಜನೆ ಮತ್ತು ಪೂಲ್ಗಳು</string>
+    <string name="splitBills">ಒಡೆದ ಬಿಲ್ಲುಗಳು</string>
+    <string name="splitandpools">SplitAndPools</string>
+    <string name="ssl_pining_error">SSL_PINING_ERROR</string>
+    <string name="standardSMSDataChargesShallBeApply">
+ಸ್ಟ್ಯಾಂಡರ್ಡ್ SMS &amp; ಡೇಟಾ ಶುಲ್ಕಗಳು ಅನ್ವಯವಾಗುತ್ತವೆ
+</string>
+    <string name="startDate">ಪ್ರಾರಂಭ ದಿನಾಂಕ</string>
+    <string name="storeLocator">ಅಂಗಡಿ ಪತ್ತೆಕಾರಕ</string>
+    <string name="storelocator">ಅಂಗಡಿ ಪತ್ತೆಕಾರಕ</string>
+    <string name="submit">ಸಲ್ಲಿಸಲು</string>
+    <string name="success">ಯಶಸ್ಸು</string>
+    <string name="talktime">ಟೋಕ್ಟೈಮ್</string>
+    <string name="tamil">ತಮಿಳು</string>
+    <string name="tapForCashMode">ನಗದು ಮೋಡ್ಗೆ ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string name="tapToAudioRecording">ಆಡಿಯೊ ರೆಕಾರ್ಡಿಂಗ್ಗೆ ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string name="tapToIconToPauseRecording">ರೆಕಾರ್ಡಿಂಗ್ ಅನ್ನು ವಿರಾಮಗೊಳಿಸಲು ಐಕಾನ್ಗೆ ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string name="tapToIconToPlayRecording">ರೆಕಾರ್ಡಿಂಗ್ ಪ್ಲೇ ಮಾಡಲು ಐಕಾನ್ಗೆ ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string name="tapToIconToStopRecording">ರೆಕಾರ್ಡಿಂಗ್ ನಿಲ್ಲಿಸಲು ಐಕಾನ್ಗೆ ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string name="targetDateCanBeChangedLater">ಟಾರ್ಗೆಟ್ ದಿನಾಂಕವನ್ನು ನಂತರ ಬದಲಾಯಿಸಬಹುದು</string>
+    <string name="tax">ತೆರಿಗೆ</string>
+    <string name="technicalError">ತಾಂತ್ರಿಕ ದೋಷ</string>
+    <string name="technicalErrorOccurred.PleaseTryAgain.">ತಾಂತ್ರಿಕ ದೋಷ ಸಂಭವಿಸಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="technicalErrorTryAfterSomeTime.">ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ತಾಂತ್ರಿಕ ದೋಷವು ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="telugu">ತೆಲುಗು</string>
+    <string name="termsAndCondition">ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತು</string>
+    <string name="test">ಪರೀಕ್ಷಿಸು</string>
+    <string name="thatIsAnUnregisterMobileNumber.">ಅದು ನೋಂದಣಿ ರಹಿತ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ.</string>
+    <string name="thatSAnUnregisterAccouont.youLlNeedToCreateYourProfileToProceedFurther.">
+ಇದು ನೋಂದಣಿ ರಹಿತ ಅಕೌಂಟ್ ಆಗಿದೆ. ಮತ್ತಷ್ಟು ಮುಂದುವರಿಯಲು ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಅನ್ನು ನೀ
+</string>
+    <string name="theRequestNonceMatches">ವಿನಂತಿಯ ನಾನ್ಸ್ ಹೋಲುತ್ತದೆ</string>
+    <string name="thisApplicationRequiredYourMobileNumberVerification">
+ಈ ಅಪ್ಲಿಕೇಶನ್ಗೆ ನಿಮ್ಮ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ ಪರಿಶೀಲನೆ ಅಗತ್ಯವಿದೆ
+</string>
+    <string name="thisApplicationRequiredYourMobileNumberVerification.">
+ಈ ಅಪ್ಲಿಕೇಶನ್ಗೆ ನಿಮ್ಮ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ ಪರಿಶೀಲನೆ ಅಗತ್ಯವಿದೆ.
+</string>
+    <string name="thisCardWillBeSecurelySavedForAFasterPaymentExperience.CVVNumberWillNotBeSaved."/>
+    <string name="thisVirtualPaymentAddressHasnTBeenRegistered.">ಈ ವರ್ಚುವಲ್ ಪಾವತಿ ವಿಳಾಸವನ್ನು ನೋಂದಣಿ ಮಾಡಲಾಗಿಲ್ಲ.</string>
+    <string name="threeG">3 ಜಿ</string>
+    <string name="timeDuration">ಸಮಯ ಅವಧಿ</string>
+    <string name="timeOut">ಟೈಮ್ ಔಟ್</string>
+    <string name="tip">ಸಲಹೆ</string>
+    <string name="tirupati">ತಿರುಪತಿ</string>
+    <string name="to">ಗೆ</string>
+    <string name="toAccount">ಖಾತೆಗೆ</string>
+    <string name="toSelf">ಸ್ವಯಂ</string>
+    <string name="today">ಇಂದು</string>
+    <string name="topup">ಟೋಪ್ ಅಪ್</string>
+    <string name="toself">ಗೆ</string>
+    <string name="total">ಒಟ್ಟು</string>
+    <string name="totalBalance">ಒಟ್ಟು ಬ್ಯಾಲೆನ್ಸ್</string>
+    <string name="totalBillAmount">ಒಟ್ಟು ಬಿಲ್ ಮೊತ್ತ</string>
+    <string name="totalCashBackBalance">ಒಟ್ಟು ನಗದು ಬ್ಯಾಕ್ ಬ್ಯಾಲೆನ್ಸ್</string>
+    <string name="totalGeneralBalance">ಒಟ್ಟು ಸಾಮಾನ್ಯ ಸಮತೋಲನ</string>
+    <string name="totalPassengersLimitCanNotBeExceed7">ಒಟ್ಟು ಪ್ರಯಾಣಿಕರ ಮಿತಿಯನ್ನು ಮೀರುವಂತಿಲ್ಲ 7</string>
+    <string name="totalPayment">ಒಟ್ಟು ಪಾವತಿ</string>
+    <string name="totalSMS">ಒಟ್ಟು SMS</string>
+    <string name="trackAllYourSpendingAndGetTransactionSummaryOverDailyWeekly">
+ನಿಮ್ಮ ಎಲ್ಲ ಖರ್ಚುಗಳನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ ಮತ್ತು ದಿನನಿತ್ಯದ, ಸಾಪ್ತಾಹಿಕ ವಹಿವಾಟು ಸಾರಾಂಶವನ್ನು ಪಡೆಯಿರಿ
+</string>
+    <string name="transaction">ವ್ಯವಹಾರ</string>
+    <string name="transactionAmount">ವಹಿವಾಟು ಮೊತ್ತ</string>
+    <string name="transactionAmountExceeded">ವಹಿವಾಟಿನ ಮೊತ್ತ ಮೀರಿದೆ</string>
+    <string name="transactionDate">ವ್ಯವಹಾರ ದಿನಾಂಕ</string>
+    <string name="transactionDetails">ವಹಿವಾಟಿನ ವಿವರಗಳು</string>
+    <string name="transactionDetailsNotFound">ವಹಿವಾಟಿನ ವಿವರಗಳು ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="transactionHistory">ವ್ಯವಹಾರ ಇತಿಹಾಸ</string>
+    <string name="transactionId">ವ್ಯವಹಾರ ಐಡಿ</string>
+    <string name="transactionLimitExceeded">ವಹಿವಾಟಿನ ಮಿತಿ ಮೀರಿದೆ</string>
+    <string name="transactionNotPermittedToAccount">ವಹಿವಾಟು ಖಾತೆಗೆ ಅನುಮತಿಸುವುದಿಲ್ಲ</string>
+    <string name="transactionReferenceNumberEnteredIsIncorrect">ನಮೂದಿಸಿದ ವ್ಯವಹಾರ ಉಲ್ಲೇಖ ಸಂಖ್ಯೆಯು ತಪ್ಪಾಗಿದೆ</string>
+    <string name="transfer">ವರ್ಗಾವಣೆ</string>
+    <string name="travel">ಪ್ರಯಾಣ</string>
+    <string name="ture">ಖಚಿತ</string>
+    <string name="txn.noteAlphanumericMinlength1Maxlength50">Txn.Note ಆಲ್ಫಾನ್ಯೂಮರಿಕ್; minlength 1 maxlength 50</string>
+    <string name="type">ಮಾದರಿ -</string>
+    <string name="uber">ಉಬರ್</string>
+    <string name="unableToSendSMSPleaseEnableYourSimService.">
+SMS ಕಳುಹಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ದಯವಿಟ್ಟು ನಿಮ್ಮ ಸಿಮ್ ಸೇವೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ.
+</string>
+    <string name="undefineError">ದೋಷವನ್ನು ವಿವರಿಸು</string>
+    <string name="unknownERRORCODE">ತಿಳಿದಿಲ್ಲದ ದೋಷ ಕೋಡ್</string>
+    <string name="unlimited">ಅನಿಯಮಿತ</string>
+    <string name="unsuccessfull">ವಿಫಲವಾಗಿದೆ</string>
+    <string name="upi">ಯುಪಿಐ</string>
+    <string name="upi1">ಯುಪಿಐ 1</string>
+    <string name="upiApplicationAccessRestrictedNotAUnauthentication">
+ಯುಪಿಐ ಅಪ್ಲಿಕೇಶನ್ ಪ್ರವೇಶವನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ! ದೃಢೀಕರಣವಲ್ಲ
+</string>
+    <string name="upiDown">ಯುಪಿಐ ಡೌನ್</string>
+    <string name="upiPINEnteredIsInvalid">ನಮೂದಿಸಿದ UPI PIN ಅಮಾನ್ಯವಾಗಿದೆ</string>
+    <string name="upiPINLENGTH">ಯುಪಿಐ ಪಿನ್ ಲೆಂಗ್ತ್</string>
+    <string name="upiPINNotSetByCustomer">ಯುಪಿಐ ಪಿನ್ ಗ್ರಾಹಕರು ಹೊಂದಿಸುವುದಿಲ್ಲ</string>
+    <string name="upiPINNotSetForTheAccount">ಯುಪಿಐ ಪಿನ್ ಖಾತೆಗಾಗಿ ಹೊಂದಿಸಲಾಗಿಲ್ಲ</string>
+    <string name="upiRegister">ಯುಪಿಐ ರಿಜಿಸ್ಟರ್</string>
+    <string name="upiServerActingUpTryAgain.">ಯುಪಿಐ ಸರ್ವರ್ ಅಪ್ ಆಕ್ಟ್, ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="upimainGetBundleIsNull">UPIMain getBundle ಶೂನ್ಯವಾಗಿರುತ್ತದೆ</string>
+    <string name="upivpa">ಯುಪಿಐವಿಪಿ</string>
+    <string name="urdu">ಉರ್ಡು</string>
+    <string name="use">ಬಳಸಿ</string>
+    <string name="useItOnNextPage.">ಮುಂದಿನ ಪುಟದಲ್ಲಿ ಇದನ್ನು ಬಳಸಿ.</string>
+    <string name="userAlreadyRegistered">ಬಳಕೆದಾರ ಈಗಾಗಲೇ ನೋಂದಾಯಿಸಲಾಗಿದೆ</string>
+    <string name="userAlreadyVerified">ಬಳಕೆದಾರ ಈಗಾಗಲೇ ಪರಿಶೀಲಿಸಲಾಗಿದೆ</string>
+    <string name="userName">ಬಳಕೆದಾರ ಹೆಸರು</string>
+    <string name="userNotVerified">ಬಳಕೆದಾರ ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ</string>
+    <string name="validTHRU">ಮಾನ್ಯ ಥ್ರೂ</string>
+    <string name="validTill">ಮಾನ್ಯ ಟಿಲ್</string>
+    <string name="validUpTo">ವರೆಗೆ ಮಾನ್ಯವಾಗಿದೆ</string>
+    <string name="validate">ಮೌಲ್ಯೀಕರಿಸಿ</string>
+    <string name="validationError">ಮೌಲ್ಯೀಕರಣ ದೋಷ</string>
+    <string name="validity">ಸಿಂಧುತ್ವ</string>
+    <string name="verifyingOTP">OTP ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="viewAll">ಎಲ್ಲವನ್ನೂ ವೀಕ್ಷಿಸಿ</string>
+    <string name="viewBalance">ಸಮತೋಲನವನ್ನು ವೀಕ್ಷಿಸಿ</string>
+    <string name="viewMoreDetails">ಹೆಚ್ಚಿನ ವಿವರಗಳನ್ನು ವೀಕ್ಷಿಸಿ</string>
+    <string name="violationOfPoliciesWhileChangingUPIPIN">ಯುಪಿಐ ಪಿನ್ ಬದಲಾಯಿಸುವಾಗ ನೀತಿಗಳ ಉಲ್ಲಂಘನೆ</string>
+    <string name="violationOfUPIPINPolicies">ಯುಪಿಐ ಪಿನ್ ನೀತಿಗಳ ಉಲ್ಲಂಘನೆ</string>
+    <string name="virtualAddress">ವರ್ಚುವಲ್ ವಿಳಾಸ</string>
+    <string name="virtualAddressNotAvailableForTransaction.">ವರ್ಚುವಲ್ ವಿಳಾಸವು ವ್ಯವಹಾರಕ್ಕಾಗಿ ಲಭ್ಯವಿಲ್ಲ.</string>
+    <string name="virtualPaymentAddressDoesNotExist.">ವರ್ಚುವಲ್ ಪಾವತಿ ವಿಳಾಸ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ.</string>
+    <string name="virtualPaymentAddressVPAUPIIDIsYourPersonalisedPaymentIDWhichYouCanShareWithAnyOneForSendingAndReceivingMoneyFromYourBankAccount."/>
+    <string name="virtualPaymentAddressVPAUPIIDIsYourPersonalisedPaymentIDWhichYouCanShareWithAnyoneForSendingAndReceivingMoneyFromYourBankAccount.">
+ವರ್ಚುವಲ್ ಪಾವತಿ ವಿಳಾಸ (VPA / UPI ID) ನಿಮ್ಮ ವೈಯಕ್ತಿಕಗೊಳಿಸಿದ ಪಾವತಿ ID ಆಗಿದೆ, ಇದು ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಖಾತೆಯಿಂದ ಹಣವನ್ನು ಕಳುಹಿಸಲು ಮತ್ತು ಸ್ವೀಕರಿಸಲು ಯಾರೊಂದಿಗಾದರೂ ನೀವು ಹಂಚಿಕೊಳ್ಳಬಹುದು.
+</string>
+    <string name="vpa">ವಿಪಿಎ</string>
+    <string name="vpaIsBlocked">VPA ಅನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ</string>
+    <string name="vpaS">ವಿಪಿಎ ಕಾ</string>
+    <string name="wallet">ವಾಲೆಟ್</string>
+    <string name="walletUsage">ಕೈಚೀಲವನ್ನು ಬಳಸಿ</string>
+    <string name="water">ನೀರು</string>
+    <string name="weAreUnableToRegisterThisDeviceOnUPI.">
+ಯುಪಿಐನಲ್ಲಿ ಈ ಸಾಧನವನ್ನು ನೋಂದಾಯಿಸಲು ನಮಗೆ ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ.
+</string>
+    <string name="weCouldNotFindAnyAccountsLinkedWithSelectedBank"/>
+    <string name="weDonotReadYourPersonalChats">ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಚಾಟ್ಗಳನ್ನು ನಾವು ಓದುವುದಿಲ್ಲ</string>
+    <string name="weHaveFoundTheBelowAccount">ನಾವು ಕೆಳಗಿನ ಖಾತೆಯನ್ನು ಕಂಡುಕೊಂಡಿದ್ದೇವೆ</string>
+    <string name="weNeedToAccessYourSMSForGeneratingExpenseReport.">
+ಖರ್ಚು ವರದಿ ಉತ್ಪಾದಿಸಲು ನಿಮ್ಮ SMS ಅನ್ನು ನಾವು ಪ್ರವೇಶಿಸಬೇಕಾಗಿದೆ.
+</string>
+    <string name="weakNetworksCanNeverBeTrusted.">
+ದುರ್ಬಲ ನೆಟ್ವರ್ಕ್ಗಳು ​​ಎಂದಿಗೂ ವಿಶ್ವಾಸಾರ್ಹವಾಗಿರುವುದಿಲ್ಲ.
+</string>
+    <string name="weddingThemes">ವೆಡ್ಡಿಂಗ್ ಥೀಮ್ಗಳು</string>
+    <string name="weekly">ಸಾಪ್ತಾಹಿಕ</string>
+    <string name="well">ಸರಿ</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="whitelistedAccountValidationFailed">ಶ್ವೇತಪಟ್ಟಿಯ ಖಾತೆ ಮೌಲ್ಯಮಾಪನ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="whySendTheMoneyToTheSameAccountItSAlreadyThere.">
+ಹಣವನ್ನು ಅದೇ ಖಾತೆಗೆ ಏಕೆ ಕಳುಹಿಸಬೇಕು? ಇದು ಈಗಾಗಲೇ ಅಲ್ಲಿದೆ.
+</string>
+    <string name="withdrawn">ಹಿಂತೆಗೆದುಕೊಳ್ಳಲಾಯಿತು</string>
+    <string name="wouldYouLikeToLendTheMoneyOf">ನೀವು ಹಣವನ್ನು ಸಾಲವಾಗಿ ನೀಡಲು ಬಯಸುವಿರಾ?</string>
+    <string name="wouldYouLikeToLendTheMoneyOfRs.12000">ನೀವು 12000 ರೂ. ಸಾಲವನ್ನು ನೀಡಲು ಬಯಸುತ್ತೀರಾ?</string>
+    <string name="yearly">ವಾರ್ಷಿಕ</string>
+    <string name="yes">ಹೌದು</string>
+    <string name="youAlreadyHaveThePermission">ನಿಮಗೆ ಈಗಾಗಲೇ ಅನುಮತಿ ಇದೆ</string>
+    <string name="youAreSuccessfullyDeregistered">ನೀವು ಯಶಸ್ವಿಯಾಗಿ ಅಳಿಸಿ ಹಾಕಲಾಗಿದೆ</string>
+    <string name="youAreSuccessfullyRegistered">ನೀವು ಯಶಸ್ವಿಯಾಗಿ ನೋಂದಾಯಿಸಲಾಗಿದೆ</string>
+    <string name="youCanSelectTheMaximum25Members">ನೀವು ಗರಿಷ್ಟ 25 ಸದಸ್ಯರನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು</string>
+    <string name="youHaveUsedRs500OfRs5000MonthlyUsageLimit.">ನೀವು 50000 ರೂ. ಮಾಸಿಕ ಬಳಕೆಯ ಮಿತಿಯನ್ನು 500 ರೂ.</string>
+    <string name="youMustBe18YearsOldOrAbove.">ನೀವು 18 ವರ್ಷ ಅಥವಾ ಮೇಲ್ಪಟ್ಟವರಾಗಿರಬೇಕು.</string>
+    <string name="youNeedToAllowAllThePermissions">ನೀವು ಎಲ್ಲಾ ಅನುಮತಿಗಳನ್ನು ಅನುಮತಿಸಬೇಕಾಗಿದೆ</string>
+    <string name="youPaidFor">ನೀವು ಪಾವತಿಸಿದ್ದೀರಿ</string>
+    <string name="youWillReceiveAnOTPFromYourBank">ನಿಮ್ಮ ಬ್ಯಾಂಕ್ನಿಂದ ನೀವು OTP ಅನ್ನು ಸ್ವೀಕರಿಸುತ್ತೀರಿ!</string>
+    <string name="yourPhoneDateAndTime">ನಿಮ್ಮ ಫೋನ್ ದಿನಾಂಕ ಮತ್ತು ಸಮಯ:</string>
+    <string name="yourPhoneDateIsInaccurateAdjustYourClockAndTryAgain.">
+ನಿಮ್ಮ ಫೋನ್ ದಿನಾಂಕವು ನಿಖರವಾಗಿಲ್ಲ! ನಿಮ್ಮ ಗಡಿಯಾರವನ್ನು ಸರಿಹೊಂದಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.
+</string>
+    <string name="yourUPIID">ನಿಮ್ಮ ಯುಪಿಐ ಐಡಿ</string>
+    <string name="yourUPIRegistrationIncludingYourUPIIDAndLinkedBankAccountNumberWillBeRemovedAndYouWillNoLongerBeAbleToUse.InCaseAnyQuariesReachUs.">
+ನಿಮ್ಮ UPI ID ಮತ್ತು ಲಿಂಕ್ಡ್ ಬ್ಯಾಂಕ್ ಖಾತೆ ಸಂಖ್ಯೆ ಸೇರಿದಂತೆ ನಿಮ್ಮ UPI ನೋಂದಣಿ ತೆಗೆದುಹ
+</string>
+    <string name="yy"> ವೀ ವೀ</string>
+</resources>

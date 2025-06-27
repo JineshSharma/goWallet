@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/titleLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/infoVpaMobileImageView"
+        android:background="?colorPrimary"
+
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/profileImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/yes_sdk_ic_profile" />
+
+        <TableLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/profileImageView"
+            android:padding="5dp">
+
+            <TableRow>
+
+                <TextView
+                    style="@style/yes_sdk_textStyleWhiteSmall"
+                    android:padding="@dimen/small_space"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/vpaTextView"
+                    style="@style/yes_sdk_blackMediumMarquee"
+                    android:layout_weight="1"
+                    android:padding="@dimen/small_space"
+                    android:singleLine="true"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/yes_sdk_textStyleWhiteSmall"
+                    android:padding="@dimen/small_space"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/mobileNumberTextView"
+                    style="@style/yes_sdk_textStyleWhiteSmall"
+                    android:layout_weight="1"
+                    android:padding="@dimen/small_space"
+                    android:text=""
+                    android:textColor="@color/yes_sdk_white" />
+            </TableRow>
+
+        </TableLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@id/infoVpaMobileImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/large_space"
+        app:srcCompat="@drawable/yes_sdk_ic_notification" />
+</RelativeLayout>

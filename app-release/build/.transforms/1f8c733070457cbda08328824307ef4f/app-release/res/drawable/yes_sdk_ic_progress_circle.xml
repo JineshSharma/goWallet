@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportHeight="350"
+    android:viewportWidth="350">
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 173.4 18 C 256.242712475 18 323.4 85.1572875254 323.4 168 C 323.4 250.842712475 256.242712475 318 173.4 318 C 90.5572875254 318 23.4 250.842712475 23.4 168 C 23.4 85.1572875254 90.5572875254 18 173.4 18 Z"
+        android:strokeColor="@color/colorPrimary"
+        android:strokeMiterLimit="10"
+        android:strokeWidth="6" />
+</vector>-->
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toDegrees="360" >
+
+    <shape
+        android:innerRadiusRatio="3"
+        android:shape="ring"
+        android:thicknessRatio="8"
+        android:useLevel="false" >
+
+        <size
+            android:height="76dip"
+            android:width="76dip" />
+
+        <gradient
+            android:angle="0"
+            android:endColor="@color/colorPrimary"
+            android:startColor="@android:color/transparent"
+            android:type="sweep"
+            android:useLevel="false" />
+
+    </shape>
+
+</rotate>

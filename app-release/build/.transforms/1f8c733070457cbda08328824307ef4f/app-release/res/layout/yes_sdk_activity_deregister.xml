@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:background="@color/yes_sdk_light_gray">
+
+    <ScrollView
+        android:id="@+id/contentScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/poweredByLyout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/yes_sdk_custom_titlebar" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/yes_sdk_square_transperent_background"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical"
+                    android:padding="@dimen/large_space">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/securityQuestionTitleTextView"
+                            style="@style/yes_sdk_textStyleSmallBlack"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/avg_margin"
+                            android:layout_weight="1"
+                            android:padding="@dimen/avg_margin"
+                            android:text="@string/yes_sdk_security_questions_hint"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/infoSecurityQuestionImageView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            app:srcCompat="@drawable/yes_sdk_ic_info_dark_grey" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/min_margin"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                style="@style/yes_sdk_textStyleInActiveSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:padding="@dimen/min_margin"
+                                android:text="XXXX"
+                                android:textColor="@color/yes_sdk_light_blue" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/yes_sdk_gray" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/min_margin"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+
+                                style="@style/yes_sdk_textStyleInActiveSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:padding="@dimen/min_margin"
+                                android:text="XXXX"
+                                android:textColor="@color/yes_sdk_light_blue" />
+
+                            <View
+
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_gravity="end"
+                                android:background="@color/yes_sdk_gray" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/avg_margin"
+                            android:layout_weight="1"
+                            android:background="@drawable/yes_sdk_rectangle_transparent_stroke"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/cardDetailLayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:orientation="horizontal">
+
+
+                                <EditText
+                                    android:id="@+id/securityAnswerEditText"
+                                    style="@style/yes_sdk_textStyleSmallBlack"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:background="@color/yes_sdk_transparent"
+                                    android:digits="@string/yes_sdk_valid_chars_security_answer"
+                                    android:hint="@string/yes_sdk_security_answer"
+                                    android:imeOptions="actionDone"
+                                    android:inputType="text"
+                                    android:padding="@dimen/avg_margin" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/yes_sdk_gray" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/extra_large_space"
+                android:orientation="vertical"
+                android:padding="@dimen/avg_margin">
+
+                <TextView
+                    style="@style/yes_sdk_titleTextStyleBlackLarge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/avg_margin"
+                    android:text="@string/yes_sdk_note"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/yes_sdk_textStyleInActiveSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/avg_margin"
+                    android:text="@string/yes_sdk_deregister_content" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/avg_margin"
+                    android:layout_marginLeft="@dimen/avg_margin"
+                    android:layout_marginRight="@dimen/avg_margin"
+                    android:layout_marginTop="@dimen/avg_margin"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/avg_margin"
+                        app:srcCompat="@drawable/yes_sdk_ic_email" />
+
+                    <TextView
+                        style="@style/yes_sdk_textStyleInActiveSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/small_space"
+                        android:padding="@dimen/avg_margin"
+                        android:text="@string/yes_sdk_yestouch"
+                        android:textIsSelectable="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/avg_margin"
+                    android:layout_marginLeft="@dimen/avg_margin"
+                    android:layout_marginRight="@dimen/avg_margin"
+                    android:layout_marginTop="@dimen/avg_margin"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/avg_margin"
+                        app:srcCompat="@drawable/yes_sdk_ic_local_phone_black_24dp" />
+
+                    <TextView
+                        style="@style/yes_sdk_textStyleInActiveSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/avg_margin"
+                        android:padding="@dimen/avg_margin"
+                        android:text="@string/yes_sdk_toll_free_number"
+                        android:textIsSelectable="true" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/poweredByLyout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/proceedButton"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/poweredByTextView"
+            style="@style/yes_sdk_whiteSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes_sdk_powered_by" />
+
+        <ImageView
+            android:id="@+id/headerImageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/yes_sdk_yes_ic_powered_by" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/proceedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?colorPrimary"
+        android:text="@string/yes_sdk_proceed_deregister"
+        android:textColor="@color/yes_sdk_white" />
+
+    <include
+        layout="@layout/yes_sdk_view_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</RelativeLayout>
